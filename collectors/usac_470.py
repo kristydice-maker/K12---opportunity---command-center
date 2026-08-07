@@ -37,9 +37,9 @@ def load_accounts():
 def get_form_470_records(ben):
     """Retrieve Form 470 records from USAC for one BEN."""
     params = {
-        "$limit": 5000,
-        "$q": ben,
-    }
+    "$limit": 5000,
+    "$where": f"billed_entity_number='{ben}'",
+}
 
     url = f"{USAC_API}?{urlencode(params)}"
 
