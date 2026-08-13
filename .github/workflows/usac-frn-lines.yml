@@ -1,0 +1,34 @@
+name: USAC FRN Line Item Collector
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "45 12 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run USAC FRN line-item collector
+        run: python collectors/usac_frn_lines.py
+
+      - name: Commit updated FRN line-item data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/usac_frn_line_items.json
+          git diff --cached --quiet || git commit -m "Update USAC FRN line-item activity"
+          git pull --rebase
+          git push
