@@ -1,16 +1,19 @@
 # E-Rate Opportunity Brief
 
-Generated: 2026-08-13 15:32 UTC
+Generated: 2026-08-13 19:29 UTC
 
-This report summarizes current USAC Form 470 activity for monitored accounts.
+Current USAC Form 470 intelligence for monitored accounts.
+
+> Note: Allowable Contract Date (ACD) is a USAC E-Rate milestone, not necessarily the customer's bid-response deadline.
 
 ---
 
 ## Lewisville ISD
 
 **BEN:** 140469
-**Sales Priority:** HIGH
+**Solution Fit:** HIGH
 **Opportunity Type:** Networking
+**Opportunity Timing:** HISTORICAL REVIEW
 
 ### Form 470 260019623
 
@@ -18,23 +21,24 @@ This report summarizes current USAC Form 470 activity for monitored accounts.
 - **Status:** Certified
 - **Certified:** 2026-02-06
 - **Allowable Contract Date:** 2026-03-06
+- **Timing:** HISTORICAL REVIEW
 - **Service Type:** Internal Connections, Basic Maintenance of Internal Connections
 - **Requested Functions:** Wireless Access Points and Necessary Software and Licenses, Wireless Access Points
 - **Manufacturer:** Cisco Systems or equivalent, Cisco Systems
-- **RFP Documents:** Available
-- **Form 470 PDF:** {'url': 'https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21206235-USAC_FCC_FORM_470_APPLICATION_260019623_CERTIFIED.pdf'}
-- **RFP Link/Data:** {'url': 'https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21099678-Bid%20Invitation%202026%2002%2005T135008.919.pdf'}
+- **Form 470:** [Open USAC Form 470](https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21206235-USAC_FCC_FORM_470_APPLICATION_260019623_CERTIFIED.pdf)
+- **RFP:** [Open RFP Document](https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21099678-Bid%20Invitation%202026%2002%2005T135008.919.pdf)
 
 **Suggested Sales Action:**
-Review the RFP for switching, wireless, routing, and related infrastructure. Compare the requirements against the account's current environment and identify a Netsync design or refresh opportunity.
+Treat this Form 470 as historical intelligence. Check Form 471 and FRN data to determine what was ultimately purchased and who won. The requested technology aligns with Netsync networking capabilities, including switching, wireless, routing, licensing, and services.
 
 ---
 
 ## Irving ISD
 
 **BEN:** 140448
-**Sales Priority:** NO CURRENT ACTIVITY
+**Solution Fit:** NONE
 **Opportunity Type:** General E-Rate
+**Opportunity Timing:** NO CURRENT ACTIVITY
 
 No FY2026 or FY2027 current Form 470 activity found.
 
@@ -43,8 +47,9 @@ No FY2026 or FY2027 current Form 470 activity found.
 ## Keller ISD
 
 **BEN:** 140932
-**Sales Priority:** NO CURRENT ACTIVITY
+**Solution Fit:** NONE
 **Opportunity Type:** General E-Rate
+**Opportunity Timing:** NO CURRENT ACTIVITY
 
 No FY2026 or FY2027 current Form 470 activity found.
 
@@ -53,8 +58,9 @@ No FY2026 or FY2027 current Form 470 activity found.
 ## Coppell ISD
 
 **BEN:** 140450
-**Sales Priority:** NO CURRENT ACTIVITY
+**Solution Fit:** NONE
 **Opportunity Type:** General E-Rate
+**Opportunity Timing:** NO CURRENT ACTIVITY
 
 No FY2026 or FY2027 current Form 470 activity found.
 
@@ -63,8 +69,9 @@ No FY2026 or FY2027 current Form 470 activity found.
 ## Region 11 Education Service Center
 
 **BEN:** 17002993
-**Sales Priority:** NO CURRENT ACTIVITY
+**Solution Fit:** NONE
 **Opportunity Type:** General E-Rate
+**Opportunity Timing:** NO CURRENT ACTIVITY
 
 No FY2026 or FY2027 current Form 470 activity found.
 

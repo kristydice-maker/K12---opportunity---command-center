@@ -14,8 +14,8 @@
         "function": "Wireless Access Points and Necessary Software and Licenses",
         "manufacturer": "Cisco Systems or equivalent",
         "quantity": "6300",
-        "form_pdf": "{'url': 'https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21206235-USAC_FCC_FORM_470_APPLICATION_260019623_CERTIFIED.pdf'}",
-        "rfp_documents": "{'url': 'https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21099678-Bid%20Invitation%202026%2002%2005T135008.919.pdf'}",
+        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21206235-USAC_FCC_FORM_470_APPLICATION_260019623_CERTIFIED.pdf",
+        "rfp_documents": "https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21099678-Bid%20Invitation%202026%2002%2005T135008.919.pdf",
         "consultant": ""
       },
       {
@@ -28,8 +28,8 @@
         "function": "Wireless Access Points and Necessary Software and Licenses",
         "manufacturer": "Cisco Systems or equivalent",
         "quantity": "6300",
-        "form_pdf": "{'url': 'https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21206235-USAC_FCC_FORM_470_APPLICATION_260019623_CERTIFIED.pdf'}",
-        "rfp_documents": "{'url': 'https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21184266-Bid%20Questions.xlsx'}",
+        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21206235-USAC_FCC_FORM_470_APPLICATION_260019623_CERTIFIED.pdf",
+        "rfp_documents": "https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21184266-Bid%20Questions.xlsx",
         "consultant": ""
       },
       {
@@ -42,8 +42,8 @@
         "function": "Wireless Access Points and Necessary Software and Licenses",
         "manufacturer": "Cisco Systems or equivalent",
         "quantity": "6300",
-        "form_pdf": "{'url': 'https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21206235-USAC_FCC_FORM_470_APPLICATION_260019623_CERTIFIED.pdf'}",
-        "rfp_documents": "{'url': 'https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21206229-Lewisville%20Bid%20Close%20Addendum.docx'}",
+        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21206235-USAC_FCC_FORM_470_APPLICATION_260019623_CERTIFIED.pdf",
+        "rfp_documents": "https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21206229-Lewisville%20Bid%20Close%20Addendum.docx",
         "consultant": ""
       },
       {
@@ -56,8 +56,8 @@
         "function": "Wireless Access Points and Necessary Software and Licenses",
         "manufacturer": "Cisco Systems or equivalent",
         "quantity": "6300",
-        "form_pdf": "{'url': 'https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21206235-USAC_FCC_FORM_470_APPLICATION_260019623_CERTIFIED.pdf'}",
-        "rfp_documents": "{'url': 'https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21099679-Wireless%20Access%20Point%20Upgrade%20BOM.xlsx'}",
+        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21206235-USAC_FCC_FORM_470_APPLICATION_260019623_CERTIFIED.pdf",
+        "rfp_documents": "https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21099679-Wireless%20Access%20Point%20Upgrade%20BOM.xlsx",
         "consultant": ""
       },
       {
@@ -70,8 +70,8 @@
         "function": "Wireless Access Points",
         "manufacturer": "Cisco Systems",
         "quantity": "6300",
-        "form_pdf": "{'url': 'https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21206235-USAC_FCC_FORM_470_APPLICATION_260019623_CERTIFIED.pdf'}",
-        "rfp_documents": "{'url': 'https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21099678-Bid%20Invitation%202026%2002%2005T135008.919.pdf'}",
+        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21206235-USAC_FCC_FORM_470_APPLICATION_260019623_CERTIFIED.pdf",
+        "rfp_documents": "https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21099678-Bid%20Invitation%202026%2002%2005T135008.919.pdf",
         "consultant": ""
       },
       {
@@ -84,8 +84,8 @@
         "function": "Wireless Access Points",
         "manufacturer": "Cisco Systems",
         "quantity": "6300",
-        "form_pdf": "{'url': 'https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21206235-USAC_FCC_FORM_470_APPLICATION_260019623_CERTIFIED.pdf'}",
-        "rfp_documents": "{'url': 'https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21184266-Bid%20Questions.xlsx'}",
+        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21206235-USAC_FCC_FORM_470_APPLICATION_260019623_CERTIFIED.pdf",
+        "rfp_documents": "https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21184266-Bid%20Questions.xlsx",
         "consultant": ""
       },
       {
@@ -98,8 +98,8 @@
         "function": "Wireless Access Points",
         "manufacturer": "Cisco Systems",
         "quantity": "6300",
-        "form_pdf": "{'url': 'https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21206235-USAC_FCC_FORM_470_APPLICATION_260019623_CERTIFIED.pdf'}",
-        "rfp_documents": "{'url': 'https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21206229-Lewisville%20Bid%20Close%20Addendum.docx'}",
+        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21206235-USAC_FCC_FORM_470_APPLICATION_260019623_CERTIFIED.pdf",
+        "rfp_documents": "https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21206229-Lewisville%20Bid%20Close%20Addendum.docx",
         "consultant": ""
       },
       {
@@ -112,8 +112,8 @@
         "function": "Wireless Access Points",
         "manufacturer": "Cisco Systems",
         "quantity": "6300",
-        "form_pdf": "{'url': 'https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21206235-USAC_FCC_FORM_470_APPLICATION_260019623_CERTIFIED.pdf'}",
-        "rfp_documents": "{'url': 'https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21099679-Wireless%20Access%20Point%20Upgrade%20BOM.xlsx'}",
+        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21206235-USAC_FCC_FORM_470_APPLICATION_260019623_CERTIFIED.pdf",
+        "rfp_documents": "https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21099679-Wireless%20Access%20Point%20Upgrade%20BOM.xlsx",
         "consultant": ""
       }
     ]
