@@ -55,8 +55,10 @@ def get_form_470_records(ben):
 def first_value(record, *names):
     for name in names:
         value = record.get(name)
+
         if value not in (None, ""):
             return str(value).strip()
+
     return ""
 
 
@@ -107,10 +109,7 @@ def clean_date(value):
     if not value:
         return "Not listed"
 
-    try:
-        return value[:10]
-    except Exception:
-        return value
+    return value[:10]
 
 
 def unique_values(records, field):
@@ -125,40 +124,104 @@ def unique_values(records, field):
     return values
 
 
+def classify_opportunity(records):
+    text_parts = []
+
+    for record in records:
+        text_parts.extend([
+            record.get("service_type", ""),
+            record.get("function", ""),
+            record.get("manufacturer", ""),
+        ])
+
+    text = " ".join(text_parts).lower()
+
+    if any(word in text for word in [
+        "switch",
+        "wireless",
+        "router",
+        "network",
+        "ethernet",
+        "lan",
+    ]):
+        return "Networking"
+
+    if any(word in text for word in [
+        "firewall",
+        "security",
+        "cyber",
+        "filtering",
+        "authentication",
+    ]):
+        return "Cybersecurity"
+
+    if any(word in text for word in [
+        "fiber",
+        "internet",
+        "broadband",
+        "transport",
+        "wan",
+    ]):
+        return "Connectivity / WAN"
+
+    if any(word in text for word in [
+        "ups",
+        "battery",
+        "power",
+    ]):
+        return "Power / Infrastructure"
+
+    return "General E-Rate"
+
+
 def determine_priority(records):
     if not records:
         return "NO CURRENT ACTIVITY"
 
-    today = datetime.now(timezone.utc).date()
+    opportunity = classify_opportunity(records)
 
-    future_deadlines = []
-
-    for record in records:
-        value = record.get("allowable_contract_date", "")
-
-        if value:
-            try:
-                deadline = datetime.fromisoformat(
-                    value.replace("Z", "+00:00")
-                ).date()
-
-                if deadline >= today:
-                    future_deadlines.append(deadline)
-            except ValueError:
-                pass
-
-    if future_deadlines:
-        days_until = min(
-            (deadline - today).days
-            for deadline in future_deadlines
-        )
-
-        if days_until <= 30:
-            return "HIGH"
-        elif days_until <= 60:
-            return "MEDIUM"
+    if opportunity in {
+        "Networking",
+        "Cybersecurity",
+        "Connectivity / WAN",
+        "Power / Infrastructure",
+    }:
+        return "HIGH"
 
     return "REVIEW"
+
+
+def sales_action(opportunity):
+    if opportunity == "Networking":
+        return (
+            "Review the RFP for switching, wireless, routing, and related "
+            "infrastructure. Compare the requirements against the account's "
+            "current environment and identify a Netsync design or refresh opportunity."
+        )
+
+    if opportunity == "Cybersecurity":
+        return (
+            "Review the security requirements and determine fit for firewall, "
+            "identity, filtering, managed security, or related Netsync solutions."
+        )
+
+    if opportunity == "Connectivity / WAN":
+        return (
+            "Review carrier, fiber, WAN, and transport requirements and determine "
+            "whether Netsync can influence architecture, optics, routing, or "
+            "implementation services."
+        )
+
+    if opportunity == "Power / Infrastructure":
+        return (
+            "Review UPS and infrastructure requirements for related data center, "
+            "network closet, and resiliency opportunities."
+        )
+
+    return (
+        "Review the Form 470 and attached RFP to determine whether there is "
+        "a relevant Netsync solution or services opportunity."
+    )
 
 
 def generate_brief(intelligence):
@@ -181,23 +244,22 @@ def generate_brief(intelligence):
         lines.append(f"## {account_name}")
         lines.append("")
         lines.append(f"**BEN:** {ben}")
-        
-lines.append(
-    f"**Sales Priority:** {determine_priority(records)}"
-)
-lines.append(
-    f"**Opportunity Type:** {classify_opportunity(records)}"
-)
-lines.append("")   
+        lines.append(
+            f"**Sales Priority:** {determine_priority(records)}"
+        )
+        lines.append(
+            f"**Opportunity Type:** {classify_opportunity(records)}"
+        )
+        lines.append("")
 
-if not records:
-    lines.append(
-    "No FY2026 or FY2027 current Form 470 activity found."
-     )
-    lines.append("")
-    lines.append("---")
-    lines.append("")
-    continue
+        if not records:
+            lines.append(
+                "No FY2026 or FY2027 current Form 470 activity found."
+            )
+            lines.append("")
+            lines.append("---")
+            lines.append("")
+            continue
 
         applications = defaultdict(list)
 
@@ -238,6 +300,8 @@ if not records:
             form_pdfs = unique_values(
                 app_records, "form_pdf"
             )
+
+            opportunity = classify_opportunity(app_records)
 
             lines.append(f"### Form 470 {app_number}")
             lines.append("")
@@ -285,56 +349,7 @@ if not records:
 
             lines.append("")
             lines.append("**Suggested Sales Action:**")
-
-            opportunity = classify_opportunity(app_records)
-
-            if opportunity == "Networking":
-                lines.append(
-                    "Review the RFP for switching, wireless, routing, and related "
-                    "infrastructure. Compare against the existing account technology "
-                    "strategy and identify a Netsync design or refresh opportunity."
-                )
-
-            elif opportunity == "Cybersecurity":
-                lines.append(
-                    "Review security requirements and determine fit for firewall, "
-                    "identity, filtering, managed security, or related Netsync solutions."
-                )
-
-            elif opportunity == "Connectivity / WAN":
-                lines.append(
-                    "Review carrier, fiber, WAN, and transport requirements and determine "
-                    "whether Netsync can influence architecture, optics, routing, or "
-                    "implementation services."
-                )
-
-            elif opportunity == "Power / Infrastructure":
-                lines.append(
-                    "Review UPS and infrastructure requirements for related data center, "
-                    "network closet, and resiliency opportunities."
-                )
-
-            else:
-                lines.append(
-                    "Review the Form 470 and attached RFP to determine whether there is "
-                    "a relevant Netsync solution or services opportunity."
-                )
-
-            lines.append("")
-            
-            if manufacturers:
-                lines.append(
-                    f"Review requested manufacturers "
-                    f"({', '.join(manufacturers)}) against Netsync "
-                    f"solutions and incumbent vendor position."
-                )
-            else:
-                lines.append(
-                    "Review the Form 470 and attached RFP for networking, "
-                    "cybersecurity, data center, cloud, collaboration, "
-                    "A/V, and safety/security opportunities."
-                )
-
+            lines.append(sales_action(opportunity))
             lines.append("")
 
         lines.append("---")
