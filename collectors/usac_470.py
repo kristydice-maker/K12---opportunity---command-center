@@ -287,36 +287,42 @@ lines.append("")
             lines.append("")
             lines.append("**Suggested Sales Action:**")
 
-opportunity = classify_opportunity(app_records)
+            opportunity = classify_opportunity(app_records)
 
-if opportunity == "Networking":
-    lines.append(
-        "Review the RFP for switching, wireless, routing, and related "
-        "infrastructure. Compare against the existing account technology "
-        "strategy and identify a Netsync design or refresh opportunity."
-    )
-elif opportunity == "Cybersecurity":
-    lines.append(
-        "Review security requirements and determine fit for firewall, "
-        "identity, filtering, managed security, or related Netsync solutions."
-    )
-elif opportunity == "Connectivity / WAN":
-    lines.append(
-        "Review carrier, fiber, WAN, and transport requirements and determine "
-        "whether Netsync can influence architecture, optics, routing, or "
-        "implementation services."
-    )
-elif opportunity == "Power / Infrastructure":
-    lines.append(
-        "Review UPS and infrastructure requirements for related data center, "
-        "network closet, and resiliency opportunities."
-    )
-else:
-    lines.append(
-        "Review the Form 470 and attached RFP to determine whether there is "
-        "a relevant Netsync solution or services opportunity."
-    )
+            if opportunity == "Networking":
+                lines.append(
+                    "Review the RFP for switching, wireless, routing, and related "
+                    "infrastructure. Compare against the existing account technology "
+                    "strategy and identify a Netsync design or refresh opportunity."
+                )
 
+            elif opportunity == "Cybersecurity":
+                lines.append(
+                    "Review security requirements and determine fit for firewall, "
+                    "identity, filtering, managed security, or related Netsync solutions."
+                )
+
+            elif opportunity == "Connectivity / WAN":
+                lines.append(
+                    "Review carrier, fiber, WAN, and transport requirements and determine "
+                    "whether Netsync can influence architecture, optics, routing, or "
+                    "implementation services."
+                )
+
+            elif opportunity == "Power / Infrastructure":
+                lines.append(
+                    "Review UPS and infrastructure requirements for related data center, "
+                    "network closet, and resiliency opportunities."
+                )
+
+            else:
+                lines.append(
+                    "Review the Form 470 and attached RFP to determine whether there is "
+                    "a relevant Netsync solution or services opportunity."
+                )
+
+            lines.append("")
+            
             if manufacturers:
                 lines.append(
                     f"Review requested manufacturers "
