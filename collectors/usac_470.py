@@ -181,8 +181,7 @@ def generate_brief(intelligence):
         lines.append(f"## {account_name}")
         lines.append("")
         lines.append(f"**BEN:** {ben}")
-        lines.append(
-         lines.append(f"**BEN:** {ben}")
+        
 lines.append(
     f"**Sales Priority:** {determine_priority(records)}"
 )
