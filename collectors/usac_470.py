@@ -52,12 +52,39 @@ def get_form_470_records(ben):
         return json.loads(response.read().decode("utf-8"))
 
 
+def normalize_value(value):
+    if value in (None, ""):
+        return ""
+
+    if isinstance(value, dict):
+        if value.get("url"):
+            return str(value["url"]).strip()
+
+        if value.get("description"):
+            return str(value["description"]).strip()
+
+        return ""
+
+    if isinstance(value, list):
+        cleaned = []
+
+        for item in value:
+            result = normalize_value(item)
+
+            if result:
+                cleaned.append(result)
+
+        return ", ".join(cleaned)
+
+    return str(value).strip()
+
+
 def first_value(record, *names):
     for name in names:
-        value = record.get(name)
+        value = normalize_value(record.get(name))
 
-        if value not in (None, ""):
-            return str(value).strip()
+        if value:
+            return value
 
     return ""
 
@@ -110,6 +137,18 @@ def clean_date(value):
         return "Not listed"
 
     return value[:10]
+
+
+def parse_date(value):
+    if not value:
+        return None
+
+    try:
+        return datetime.fromisoformat(
+            value.replace("Z", "+00:00")
+        ).date()
+    except ValueError:
+        return None
 
 
 def unique_values(records, field):
@@ -174,9 +213,9 @@ def classify_opportunity(records):
     return "General E-Rate"
 
 
-def determine_priority(records):
+def determine_solution_fit(records):
     if not records:
-        return "NO CURRENT ACTIVITY"
+        return "NONE"
 
     opportunity = classify_opportunity(records)
 
@@ -191,37 +230,86 @@ def determine_priority(records):
     return "REVIEW"
 
 
-def sales_action(opportunity):
+def determine_timing(records):
+    if not records:
+        return "NO CURRENT ACTIVITY"
+
+    today = datetime.now(timezone.utc).date()
+
+    dates = []
+
+    for record in records:
+        date_value = parse_date(
+            record.get("allowable_contract_date", "")
+        )
+
+        if date_value:
+            dates.append(date_value)
+
+    if not dates:
+        return "REVIEW DATE"
+
+    latest_acd = max(dates)
+
+    if today < latest_acd:
+        return "PRE-ACD"
+
+    days_since_acd = (today - latest_acd).days
+
+    if days_since_acd <= 90:
+        return "AWARD / FOLLOW-UP"
+
+    return "HISTORICAL REVIEW"
+
+
+def sales_action(opportunity, timing):
+    if timing == "PRE-ACD":
+        timing_action = (
+            "Review the Form 470 and RFP promptly. The Allowable Contract "
+            "Date has not yet passed."
+        )
+
+    elif timing == "AWARD / FOLLOW-UP":
+        timing_action = (
+            "The Allowable Contract Date has passed recently. Check for "
+            "award activity, Form 471 filings, board approval, and customer follow-up."
+        )
+
+    else:
+        timing_action = (
+            "Treat this Form 470 as historical intelligence. Check Form 471 "
+            "and FRN data to determine what was ultimately purchased and who won."
+        )
+
     if opportunity == "Networking":
-        return (
-            "Review the RFP for switching, wireless, routing, and related "
-            "infrastructure. Compare the requirements against the account's "
-            "current environment and identify a Netsync design or refresh opportunity."
+        solution_action = (
+            "The requested technology aligns with Netsync networking capabilities, "
+            "including switching, wireless, routing, licensing, and services."
         )
 
-    if opportunity == "Cybersecurity":
-        return (
-            "Review the security requirements and determine fit for firewall, "
-            "identity, filtering, managed security, or related Netsync solutions."
+    elif opportunity == "Cybersecurity":
+        solution_action = (
+            "Review fit for firewall, identity, filtering, managed security, "
+            "and related cybersecurity solutions."
         )
 
-    if opportunity == "Connectivity / WAN":
-        return (
-            "Review carrier, fiber, WAN, and transport requirements and determine "
-            "whether Netsync can influence architecture, optics, routing, or "
-            "implementation services."
+    elif opportunity == "Connectivity / WAN":
+        solution_action = (
+            "Review fiber, WAN, carrier, transport, optics, routing, and "
+            "implementation opportunities."
         )
 
-    if opportunity == "Power / Infrastructure":
-        return (
-            "Review UPS and infrastructure requirements for related data center, "
-            "network closet, and resiliency opportunities."
+    elif opportunity == "Power / Infrastructure":
+        solution_action = (
+            "Review UPS, network closet, resiliency, and related infrastructure needs."
         )
 
-    return (
-        "Review the Form 470 and attached RFP to determine whether there is "
-        "a relevant Netsync solution or services opportunity."
-    )
+    else:
+        solution_action = (
+            "Review the Form 470 and RFP for relevant Netsync products and services."
+        )
+
+    return f"{timing_action} {solution_action}"
 
 
 def generate_brief(intelligence):
@@ -230,7 +318,10 @@ def generate_brief(intelligence):
         "",
         f"Generated: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}",
         "",
-        "This report summarizes current USAC Form 470 activity for monitored accounts.",
+        "Current USAC Form 470 intelligence for monitored accounts.",
+        "",
+        "> Note: Allowable Contract Date (ACD) is a USAC E-Rate milestone, "
+        "not necessarily the customer's bid-response deadline.",
         "",
         "---",
         "",
@@ -241,15 +332,16 @@ def generate_brief(intelligence):
         ben = account["ben"]
         records = account["activity"]
 
+        opportunity = classify_opportunity(records)
+        solution_fit = determine_solution_fit(records)
+        timing = determine_timing(records)
+
         lines.append(f"## {account_name}")
         lines.append("")
         lines.append(f"**BEN:** {ben}")
-        lines.append(
-            f"**Sales Priority:** {determine_priority(records)}"
-        )
-        lines.append(
-            f"**Opportunity Type:** {classify_opportunity(records)}"
-        )
+        lines.append(f"**Solution Fit:** {solution_fit}")
+        lines.append(f"**Opportunity Type:** {opportunity}")
+        lines.append(f"**Opportunity Timing:** {timing}")
         lines.append("")
 
         if not records:
@@ -268,6 +360,7 @@ def generate_brief(intelligence):
                 record.get("application_number")
                 or "Application number not listed"
             )
+
             applications[app_number].append(record)
 
         for app_number, app_records in applications.items():
@@ -301,7 +394,8 @@ def generate_brief(intelligence):
                 app_records, "form_pdf"
             )
 
-            opportunity = classify_opportunity(app_records)
+            app_opportunity = classify_opportunity(app_records)
+            app_timing = determine_timing(app_records)
 
             lines.append(f"### Form 470 {app_number}")
             lines.append("")
@@ -310,6 +404,9 @@ def generate_brief(intelligence):
             lines.append(f"- **Certified:** {certified}")
             lines.append(
                 f"- **Allowable Contract Date:** {contract_date}"
+            )
+            lines.append(
+                f"- **Timing:** {app_timing}"
             )
 
             if services:
@@ -332,24 +429,25 @@ def generate_brief(intelligence):
                     f"- **Consultant:** {', '.join(consultants)}"
                 )
 
-            lines.append(
-                f"- **RFP Documents:** "
-                f"{'Available' if rfp_documents else 'None listed'}"
-            )
-
             if form_pdfs:
                 lines.append(
-                    f"- **Form 470 PDF:** {form_pdfs[0]}"
+                    f"- **Form 470:** [Open USAC Form 470]({form_pdfs[0]})"
                 )
 
             if rfp_documents:
                 lines.append(
-                    f"- **RFP Link/Data:** {rfp_documents[0]}"
+                    f"- **RFP:** [Open RFP Document]({rfp_documents[0]})"
+                )
+            else:
+                lines.append(
+                    "- **RFP:** None listed"
                 )
 
             lines.append("")
             lines.append("**Suggested Sales Action:**")
-            lines.append(sales_action(opportunity))
+            lines.append(
+                sales_action(app_opportunity, app_timing)
+            )
             lines.append("")
 
         lines.append("---")
