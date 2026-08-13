@@ -28,7 +28,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add data/usac_471_activity.json
+          git add data/usac_471_activity.json data/erate_471_brief.md
           git diff --cached --quiet || git commit -m "Update USAC Form 471 FRN activity"
           git pull --rebase
           git push
