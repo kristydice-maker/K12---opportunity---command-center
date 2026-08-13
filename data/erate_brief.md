@@ -1,6 +1,6 @@
 # E-Rate Opportunity Brief
 
-Generated: 2026-08-07 16:49 UTC
+Generated: 2026-08-13 15:00 UTC
 
 This report summarizes current USAC Form 470 activity for monitored accounts.
 
@@ -9,7 +9,8 @@ This report summarizes current USAC Form 470 activity for monitored accounts.
 ## Lewisville ISD
 
 **BEN:** 140469
-**Sales Priority:** REVIEW
+**Sales Priority:** HIGH
+**Opportunity Type:** Networking
 
 ### Form 470 260019623
 
@@ -24,8 +25,8 @@ This report summarizes current USAC Form 470 activity for monitored accounts.
 - **Form 470 PDF:** {'url': 'https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21206235-USAC_FCC_FORM_470_APPLICATION_260019623_CERTIFIED.pdf'}
 - **RFP Link/Data:** {'url': 'https://publicdata.usac.org/EPC/Prd/Form470/260019623/140469/21099678-Bid%20Invitation%202026%2002%2005T135008.919.pdf'}
 
-**Suggested Sales Review:**
-Review requested manufacturers (Cisco Systems or equivalent, Cisco Systems) against Netsync solutions and incumbent vendor position.
+**Suggested Sales Action:**
+Review the RFP for switching, wireless, routing, and related infrastructure. Compare the requirements against the account's current environment and identify a Netsync design or refresh opportunity.
 
 ---
 
@@ -33,6 +34,7 @@ Review requested manufacturers (Cisco Systems or equivalent, Cisco Systems) agai
 
 **BEN:** 140448
 **Sales Priority:** NO CURRENT ACTIVITY
+**Opportunity Type:** General E-Rate
 
 No FY2026 or FY2027 current Form 470 activity found.
 
@@ -42,6 +44,7 @@ No FY2026 or FY2027 current Form 470 activity found.
 
 **BEN:** 140932
 **Sales Priority:** NO CURRENT ACTIVITY
+**Opportunity Type:** General E-Rate
 
 No FY2026 or FY2027 current Form 470 activity found.
 
@@ -51,6 +54,7 @@ No FY2026 or FY2027 current Form 470 activity found.
 
 **BEN:** 140450
 **Sales Priority:** NO CURRENT ACTIVITY
+**Opportunity Type:** General E-Rate
 
 No FY2026 or FY2027 current Form 470 activity found.
 
@@ -60,6 +64,7 @@ No FY2026 or FY2027 current Form 470 activity found.
 
 **BEN:** 17002993
 **Sales Priority:** NO CURRENT ACTIVITY
+**Opportunity Type:** General E-Rate
 
 No FY2026 or FY2027 current Form 470 activity found.
 
