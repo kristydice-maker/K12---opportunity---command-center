@@ -1,0 +1,34 @@
+name: USAC Form 471 FRN Collector
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 12 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run USAC Form 471 collector
+        run: python collectors/usac_471.py
+
+      - name: Commit updated Form 471 data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/usac_471_activity.json
+          git diff --cached --quiet || git commit -m "Update USAC Form 471 FRN activity"
+          git pull --rebase
+          git push
