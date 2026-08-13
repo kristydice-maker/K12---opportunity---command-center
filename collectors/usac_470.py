@@ -190,14 +190,14 @@ lines.append(
 )
 lines.append("")   
 
-        if not records:
-            lines.append(
-                "No FY2026 or FY2027 current Form 470 activity found."
-            )
-            lines.append("")
-            lines.append("---")
-            lines.append("")
-            continue
+if not records:
+    lines.append(
+    "No FY2026 or FY2027 current Form 470 activity found."
+     )
+    lines.append("")
+    lines.append("---")
+    lines.append("")
+    continue
 
         applications = defaultdict(list)
 
