@@ -291,3 +291,132 @@ def recommended_action(form470_records, frn_records):
         "No current FY2026/FY2027 E-Rate signal. Maintain normal account "
         "cadence and continue monitoring for new Form 470 activity."
     )
+
+def build_report():
+    form470_by_account = account_map(load_json(FORM_470_FILE))
+    form471_by_account = account_map(load_json(FORM_471_FILE))
+    line_items_by_account = account_map(load_json(LINE_ITEM_FILE))
+
+    account_names = sorted(
+        set(form470_by_account)
+        | set(form471_by_account)
+        | set(line_items_by_account)
+    )
+
+    lines = [
+        "# E-Rate Account Intelligence Brief",
+        "",
+        f"Generated: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}",
+        "",
+        "Consolidated Form 470, Form 471 / FRN, and FRN line-item intelligence "
+        "for monitored E-Rate accounts.",
+        "",
+        "---",
+        "",
+    ]
+
+    for account_name in account_names:
+        form470_records = form470_by_account.get(
+            account_name, {}
+        ).get("activity", [])
+        frn_records = form471_by_account.get(
+            account_name, {}
+        ).get("activity", [])
+        line_item_records = line_items_by_account.get(
+            account_name, {}
+        ).get("activity", [])
+
+        score, reasons = score_account(
+            form470_records, frn_records
+        )
+        line_items_by_frn = group_line_items_by_frn(
+            line_item_records
+        )
+
+        lines.extend([
+            f"## {account_name}",
+            "",
+            f"**Priority:** {priority_label(score)} ({score})",
+            f"**Form 470 Records:** {len(form470_records)}",
+            f"**Form 471 / FRN Records:** {len(frn_records)}",
+            f"**FRN Line Items:** {len(line_item_records)}",
+            "",
+        ])
+
+        if reasons:
+            lines.append("**Priority Signals:**")
+            lines.extend(f"- {reason}" for reason in reasons)
+            lines.append("")
+
+        if form470_records:
+            lines.append("### Current Form 470 Activity")
+            lines.append("")
+
+            for record in form470_records:
+                application = (
+                    record.get("application_number")
+                    or "Not listed"
+                )
+                lines.append(
+                    f"- **Form 470 {application}** — "
+                    f"FY{record.get('funding_year') or 'Not listed'}; "
+                    f"{record.get('service_type') or 'Service not listed'}; "
+                    f"certified {clean_date(record.get('certified_date'))}; "
+                    f"ACD {clean_date(record.get('allowable_contract_date'))}"
+                )
+
+            lines.append("")
+
+        if frn_records:
+            lines.append("### Form 471 / FRN Outcomes")
+            lines.append("")
+
+            for record in frn_records:
+                frn = record.get("frn") or "Not listed"
+                provider = (
+                    record.get("service_provider")
+                    or "Not listed"
+                )
+                lines.append(
+                    f"- **FRN {frn}** — "
+                    f"{record.get('service_type') or 'Service not listed'}; "
+                    f"{provider} ({classify_provider(provider)}); "
+                    f"pre-discount cost "
+                    f"{money(record.get('total_pre_discount_cost'))}"
+                )
+
+                for summary in product_summary(
+                    line_items_by_frn.get(frn, [])
+                ):
+                    lines.append(f"  - {summary}")
+
+            lines.append("")
+
+        if not form470_records and not frn_records:
+            lines.extend([
+                "No current FY2026/FY2027 Form 470 or Form 471 activity found.",
+                "",
+            ])
+
+        lines.extend([
+            "### Recommended Action",
+            "",
+            recommended_action(form470_records, frn_records),
+            "",
+            "---",
+            "",
+        ])
+
+    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT_FILE.write_text(
+        "\n".join(lines),
+        encoding="utf-8",
+    )
+
+    print(
+        f"Consolidated E-Rate brief saved to {OUTPUT_FILE}"
+    )
+
+
+if __name__ == "__main__":
+    build_report()
