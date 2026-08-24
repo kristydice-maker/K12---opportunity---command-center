@@ -2,6 +2,12 @@ name: USAC Form 470 Collector
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "data/accounts.csv"
+      - ".github/workflows/usac-470.yml"
   schedule:
     - cron: "0 12 * * *"
 
