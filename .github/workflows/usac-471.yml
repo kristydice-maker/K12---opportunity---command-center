@@ -2,6 +2,12 @@ name: USAC Form 471 FRN Collector
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "data/accounts.csv"
+      - ".github/workflows/usac-471.yml"
   schedule:
     - cron: "30 12 * * *"
 
