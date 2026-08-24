@@ -141,5 +141,86 @@
     "ben": "17002993",
     "active_470_rows": 0,
     "activity": []
+  },
+  {
+    "account_name": "Responsive Education Solutions",
+    "ben": "232165",
+    "active_470_rows": 4,
+    "activity": [
+      {
+        "application_number": "260009822",
+        "funding_year": "2026",
+        "status": "Certified",
+        "certified_date": "2025-12-12T13:19:48.000",
+        "allowable_contract_date": "2026-01-09T00:00:00.000",
+        "service_type": "Data Transmission and/or Internet Access",
+        "function": "Internet Access and Data Transmission Service",
+        "manufacturer": "",
+        "quantity": "31",
+        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/260009822/232165/20841199-USAC_FCC_FORM_470_APPLICATION_260009822_CERTIFIED.pdf",
+        "rfp_documents": "https://publicdata.usac.org/EPC/Prd/Form470/260009822/232165/20841179-Addendum%202.docx",
+        "consultant": ""
+      },
+      {
+        "application_number": "260009822",
+        "funding_year": "2026",
+        "status": "Certified",
+        "certified_date": "2025-12-12T13:19:48.000",
+        "allowable_contract_date": "2026-01-09T00:00:00.000",
+        "service_type": "Data Transmission and/or Internet Access",
+        "function": "Internet Access and Data Transmission Service",
+        "manufacturer": "",
+        "quantity": "31",
+        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/260009822/232165/20841199-USAC_FCC_FORM_470_APPLICATION_260009822_CERTIFIED.pdf",
+        "rfp_documents": "https://publicdata.usac.org/EPC/Prd/Form470/260009822/232165/20737890-Addendum.docx",
+        "consultant": ""
+      },
+      {
+        "application_number": "260009822",
+        "funding_year": "2026",
+        "status": "Certified",
+        "certified_date": "2025-12-12T13:19:48.000",
+        "allowable_contract_date": "2026-01-09T00:00:00.000",
+        "service_type": "Data Transmission and/or Internet Access",
+        "function": "Internet Access and Data Transmission Service",
+        "manufacturer": "",
+        "quantity": "31",
+        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/260009822/232165/20841199-USAC_FCC_FORM_470_APPLICATION_260009822_CERTIFIED.pdf",
+        "rfp_documents": "https://publicdata.usac.org/EPC/Prd/Form470/260009822/232165/20722677-Responsive%20Education%20Solutions%20IA%202026.16%20Pricing%20Table%20rev1b.xlsx",
+        "consultant": ""
+      },
+      {
+        "application_number": "260009822",
+        "funding_year": "2026",
+        "status": "Certified",
+        "certified_date": "2025-12-12T13:19:48.000",
+        "allowable_contract_date": "2026-01-09T00:00:00.000",
+        "service_type": "Data Transmission and/or Internet Access",
+        "function": "Internet Access and Data Transmission Service",
+        "manufacturer": "",
+        "quantity": "31",
+        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/260009822/232165/20841199-USAC_FCC_FORM_470_APPLICATION_260009822_CERTIFIED.pdf",
+        "rfp_documents": "https://publicdata.usac.org/EPC/Prd/Form470/260009822/232165/20722676-Responsive%20Education%20Solutions%20IA%20RFP%202026.16%20rev1b.docx",
+        "consultant": ""
+      }
+    ]
+  },
+  {
+    "account_name": "Burleson ISD",
+    "ben": "140849",
+    "active_470_rows": 0,
+    "activity": []
+  },
+  {
+    "account_name": "Wichita Falls ISD",
+    "ben": "140959",
+    "active_470_rows": 0,
+    "activity": []
+  },
+  {
+    "account_name": "Aledo ISD",
+    "ben": "140837",
+    "active_470_rows": 0,
+    "activity": []
   }
 ]

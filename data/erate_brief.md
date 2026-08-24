@@ -1,6 +1,6 @@
 # E-Rate Opportunity Brief
 
-Generated: 2026-08-24 14:26 UTC
+Generated: 2026-08-24 18:48 UTC
 
 Current USAC Form 470 intelligence for monitored accounts.
 
@@ -69,6 +69,63 @@ No FY2026 or FY2027 current Form 470 activity found.
 ## Region 11 Education Service Center
 
 **BEN:** 17002993
+**Solution Fit:** NONE
+**Opportunity Type:** General E-Rate
+**Opportunity Timing:** NO CURRENT ACTIVITY
+
+No FY2026 or FY2027 current Form 470 activity found.
+
+---
+
+## Responsive Education Solutions
+
+**BEN:** 232165
+**Solution Fit:** HIGH
+**Opportunity Type:** Connectivity / WAN
+**Opportunity Timing:** HISTORICAL REVIEW
+
+### Form 470 260009822
+
+- **Funding Year:** 2026
+- **Status:** Certified
+- **Certified:** 2025-12-12
+- **Allowable Contract Date:** 2026-01-09
+- **Timing:** HISTORICAL REVIEW
+- **Service Type:** Data Transmission and/or Internet Access
+- **Requested Functions:** Internet Access and Data Transmission Service
+- **Form 470:** [Open USAC Form 470](https://publicdata.usac.org/EPC/Prd/Form470/260009822/232165/20841199-USAC_FCC_FORM_470_APPLICATION_260009822_CERTIFIED.pdf)
+- **RFP:** [Open RFP Document](https://publicdata.usac.org/EPC/Prd/Form470/260009822/232165/20841179-Addendum%202.docx)
+
+**Suggested Sales Action:**
+Treat this Form 470 as historical intelligence. Check Form 471 and FRN data to determine what was ultimately purchased and who won. Review fiber, WAN, carrier, transport, optics, routing, and implementation opportunities.
+
+---
+
+## Burleson ISD
+
+**BEN:** 140849
+**Solution Fit:** NONE
+**Opportunity Type:** General E-Rate
+**Opportunity Timing:** NO CURRENT ACTIVITY
+
+No FY2026 or FY2027 current Form 470 activity found.
+
+---
+
+## Wichita Falls ISD
+
+**BEN:** 140959
+**Solution Fit:** NONE
+**Opportunity Type:** General E-Rate
+**Opportunity Timing:** NO CURRENT ACTIVITY
+
+No FY2026 or FY2027 current Form 470 activity found.
+
+---
+
+## Aledo ISD
+
+**BEN:** 140837
 **Solution Fit:** NONE
 **Opportunity Type:** General E-Rate
 **Opportunity Timing:** NO CURRENT ACTIVITY
