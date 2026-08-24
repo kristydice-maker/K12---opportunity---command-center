@@ -2,6 +2,12 @@ name: Build E-Rate Account Intelligence Brief
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "collectors/build_erate_brief.py"
+      - ".github/workflows/build-erate-brief.yml"
   schedule:
     - cron: "0 13 * * *"
 
