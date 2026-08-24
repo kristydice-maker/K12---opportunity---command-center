@@ -1,6 +1,6 @@
 # E-Rate Form 471 / FRN Outcome Brief
 
-Generated: 2026-08-24 14:28 UTC
+Generated: 2026-08-24 18:48 UTC
 
 This report summarizes current Form 471 funding requests and FRN outcomes for monitored E-Rate accounts.
 
@@ -244,5 +244,130 @@ Provider is not yet classified. Review the provider and related Form 470 to dete
 **FRNs Found:** 0
 
 No FY2026 or FY2027 current Form 471 / FRN activity found.
+
+---
+
+## Responsive Education Solutions
+
+**BEN:** 232165
+**FRNs Found:** 0
+
+No FY2026 or FY2027 current Form 471 / FRN activity found.
+
+---
+
+## Burleson ISD
+
+**BEN:** 140849
+**FRNs Found:** 2
+
+### Form 471 261016964
+
+#### FRN 2699021332
+
+- **Funding Year:** 2026
+- **Service Type:** Data Transmission and/or Internet Access
+- **Funding Status:** Funded
+- **Selected Provider:** Charter Communications Operating, LLC
+- **Provider Classification:** CARRIER
+- **Contract Number:** Not listed
+- **Establishing Form 470:** 240012370
+- **Service Start:** 2026-07-01
+- **Contract Expiration:** 2027-06-30
+- **Service Delivery Deadline:** 2027-06-30
+- **Monthly Eligible Cost:** $3,033.00
+- **Total Pre-Discount Cost:** $36,396.00
+- **Funding Request:** $21,837.60
+- **Discount Rate:** 60%
+- **Form 486 Status:** Approved
+
+**Competitive Interpretation:**
+This appears to be a carrier/connectivity award. Treat it as account infrastructure intelligence rather than a direct VAR competitive loss.
+
+#### FRN 2699021338
+
+- **Funding Year:** 2026
+- **Service Type:** Data Transmission and/or Internet Access
+- **Funding Status:** Funded
+- **Selected Provider:** Charter Communications Operating, LLC
+- **Provider Classification:** CARRIER
+- **Contract Number:** Not listed
+- **Establishing Form 470:** 240012434
+- **Service Start:** 2026-07-01
+- **Contract Expiration:** 2034-06-30
+- **Service Delivery Deadline:** 2027-06-30
+- **Monthly Eligible Cost:** $10,812.40
+- **Total Pre-Discount Cost:** $129,748.80
+- **Funding Request:** $77,849.28
+- **Discount Rate:** 60%
+- **Form 486 Status:** Approved
+
+**Competitive Interpretation:**
+This appears to be a carrier/connectivity award. Treat it as account infrastructure intelligence rather than a direct VAR competitive loss.
+
+
+---
+
+## Wichita Falls ISD
+
+**BEN:** 140959
+**FRNs Found:** 0
+
+No FY2026 or FY2027 current Form 471 / FRN activity found.
+
+---
+
+## Aledo ISD
+
+**BEN:** 140837
+**FRNs Found:** 2
+
+### Form 471 261031296
+
+#### FRN 2699045290
+
+- **Funding Year:** 2026
+- **Service Type:** Data Transmission and/or Internet Access
+- **Funding Status:** Funded
+- **Selected Provider:** AMG Technology Investment Group LLC
+- **Provider Classification:** UNKNOWN / OTHER
+- **Contract Number:** ALED 545799 Nexlink 5GB INT FY2627 + 4 EXT
+- **Establishing Form 470:** 260001880
+- **Service Start:** 2026-07-01
+- **Contract Expiration:** 2027-06-30
+- **Service Delivery Deadline:** 2027-06-30
+- **Monthly Eligible Cost:** $2,677.95
+- **Total Pre-Discount Cost:** $32,135.40
+- **Funding Request:** $12,854.16
+- **Discount Rate:** 40%
+- **Form 486 Status:** Approved
+
+**Competitive Interpretation:**
+Provider is not yet classified. Review the provider and related Form 470 to determine competitive significance.
+
+
+### Form 471 261001458
+
+#### FRN 2699000868
+
+- **Funding Year:** 2026
+- **Service Type:** Data Transmission and/or Internet Access
+- **Funding Status:** Cancelled
+- **Selected Provider:** AMG Technology Investment Group LLC
+- **Provider Classification:** UNKNOWN / OTHER
+- **Contract Number:** ALED Nextlink INT 5 Gbps 26-31
+- **Establishing Form 470:** 260001880
+- **Service Start:** 2026-07-01
+- **Contract Expiration:** 2027-06-30
+- **Service Delivery Deadline:** Not listed
+- **Monthly Eligible Cost:** $3,185.44
+- **Total Pre-Discount Cost:** $38,225.28
+- **Funding Request:** $0.00
+- **Discount Rate:** 40%
+- **Form 486 Status:** Not listed
+
+**Competitive Interpretation:**
+Provider is not yet classified. Review the provider and related Form 470 to determine competitive significance.
+
 
 ---

@@ -194,5 +194,103 @@
     "ben": "17002993",
     "frn_count": 0,
     "activity": []
+  },
+  {
+    "account_name": "Responsive Education Solutions",
+    "ben": "232165",
+    "frn_count": 0,
+    "activity": []
+  },
+  {
+    "account_name": "Burleson ISD",
+    "ben": "140849",
+    "frn_count": 2,
+    "activity": [
+      {
+        "funding_year": "2026",
+        "form_471_application_number": "261016964",
+        "frn": "2699021332",
+        "service_type": "Data Transmission and/or Internet Access",
+        "funding_status": "Funded",
+        "service_provider": "Charter Communications Operating, LLC",
+        "contract_number": "",
+        "establishing_form_470": "240012370",
+        "service_start_date": "2026-07-01T00:00:00.000",
+        "service_delivery_deadline": "2027-06-30T00:00:00.000",
+        "contract_expiration_date": "2027-06-30T00:00:00.000",
+        "monthly_recurring_cost": "3033",
+        "total_pre_discount_cost": "36396",
+        "funding_commitment_request": "21837.6",
+        "discount_rate": "0.6",
+        "f486_status": "Approved"
+      },
+      {
+        "funding_year": "2026",
+        "form_471_application_number": "261016964",
+        "frn": "2699021338",
+        "service_type": "Data Transmission and/or Internet Access",
+        "funding_status": "Funded",
+        "service_provider": "Charter Communications Operating, LLC",
+        "contract_number": "",
+        "establishing_form_470": "240012434",
+        "service_start_date": "2026-07-01T00:00:00.000",
+        "service_delivery_deadline": "2027-06-30T00:00:00.000",
+        "contract_expiration_date": "2034-06-30T00:00:00.000",
+        "monthly_recurring_cost": "10812.4",
+        "total_pre_discount_cost": "129748.8",
+        "funding_commitment_request": "77849.28",
+        "discount_rate": "0.6",
+        "f486_status": "Approved"
+      }
+    ]
+  },
+  {
+    "account_name": "Wichita Falls ISD",
+    "ben": "140959",
+    "frn_count": 0,
+    "activity": []
+  },
+  {
+    "account_name": "Aledo ISD",
+    "ben": "140837",
+    "frn_count": 2,
+    "activity": [
+      {
+        "funding_year": "2026",
+        "form_471_application_number": "261031296",
+        "frn": "2699045290",
+        "service_type": "Data Transmission and/or Internet Access",
+        "funding_status": "Funded",
+        "service_provider": "AMG Technology Investment Group LLC",
+        "contract_number": "ALED 545799 Nexlink 5GB INT FY2627 + 4 EXT",
+        "establishing_form_470": "260001880",
+        "service_start_date": "2026-07-01T00:00:00.000",
+        "service_delivery_deadline": "2027-06-30T00:00:00.000",
+        "contract_expiration_date": "2027-06-30T00:00:00.000",
+        "monthly_recurring_cost": "2677.95",
+        "total_pre_discount_cost": "32135.4",
+        "funding_commitment_request": "12854.16",
+        "discount_rate": "0.4",
+        "f486_status": "Approved"
+      },
+      {
+        "funding_year": "2026",
+        "form_471_application_number": "261001458",
+        "frn": "2699000868",
+        "service_type": "Data Transmission and/or Internet Access",
+        "funding_status": "Cancelled",
+        "service_provider": "AMG Technology Investment Group LLC",
+        "contract_number": "ALED Nextlink INT 5 Gbps 26-31",
+        "establishing_form_470": "260001880",
+        "service_start_date": "2026-07-01T00:00:00.000",
+        "service_delivery_deadline": "",
+        "contract_expiration_date": "2027-06-30T00:00:00.000",
+        "monthly_recurring_cost": "3185.44",
+        "total_pre_discount_cost": "38225.28",
+        "funding_commitment_request": "0",
+        "discount_rate": "0.4",
+        "f486_status": ""
+      }
+    ]
   }
 ]
