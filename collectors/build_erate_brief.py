@@ -289,4 +289,5 @@ def recommended_action(form470_records, frn_records):
 
     return (
         "No current FY2026/FY2027 E-Rate signal. Maintain normal account "
-        "cadence
+        "cadence and continue monitoring for new Form 470 activity."
+    )
