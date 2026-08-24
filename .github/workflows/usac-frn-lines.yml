@@ -2,6 +2,12 @@ name: USAC FRN Line Item Collector
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "data/accounts.csv"
+      - ".github/workflows/usac-frn-lines.yml"
   schedule:
     - cron: "45 12 * * *"
 
