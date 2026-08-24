@@ -7,6 +7,7 @@ on:
       - main
     paths:
       - "collectors/build_erate_brief.py"
+      - "collectors/build_erate_pdf.py"
       - ".github/workflows/build-erate-brief.yml"
   schedule:
     - cron: "0 13 * * *"
@@ -27,14 +28,19 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install PDF dependency
+        run: python -m pip install reportlab
+
       - name: Build consolidated E-Rate brief
-        run: python collectors/build_erate_brief.py
+        run: |
+          python collectors/build_erate_brief.py
+          python collectors/build_erate_pdf.py
 
       - name: Commit consolidated brief
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add data/erate_account_intelligence.md
+          git add data/erate_account_intelligence.md data/erate_account_intelligence.pdf
           git diff --cached --quiet || git commit -m "Update consolidated E-Rate intelligence brief"
           git pull --rebase
           git push
