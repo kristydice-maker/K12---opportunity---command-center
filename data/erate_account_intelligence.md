@@ -1,8 +1,57 @@
 # E-Rate Account Intelligence Brief
 
-Generated: 2026-08-24 18:24 UTC
+Generated: 2026-08-24 18:50 UTC
 
 Consolidated Form 470, Form 471 / FRN, and FRN line-item intelligence for monitored E-Rate accounts.
+
+---
+
+## Aledo ISD
+
+**Priority:** LOW (0)
+**Form 470 Records:** 0
+**Form 471 / FRN Records:** 2
+**FRN Line Items:** 4
+
+### Form 471 / FRN Outcomes
+
+- **FRN 2699045290** — Data Transmission and/or Internet Access; AMG Technology Investment Group LLC (UNKNOWN / OTHER); pre-discount cost $32,135.40
+  - Fiber | Qty 0 | Eligible cost $29,700.00
+  - Miscellaneous | Qty 0 | Eligible cost $2,435.40
+- **FRN 2699000868** — Data Transmission and/or Internet Access; AMG Technology Investment Group LLC (UNKNOWN / OTHER); pre-discount cost $38,225.28
+  - Miscellaneous | Qty 0 | Eligible cost $10,445.28
+  - Fiber | Qty 0 | Eligible cost $27,780.00
+
+### Recommended Action
+
+Review the current E-Rate activity for adjacent technology, services, competitive, or lifecycle opportunities.
+
+---
+
+## Burleson ISD
+
+**Priority:** WATCH (10)
+**Form 470 Records:** 0
+**Form 471 / FRN Records:** 2
+**FRN Line Items:** 6
+
+**Priority Signals:**
+- E-Rate project over $100K
+
+### Form 471 / FRN Outcomes
+
+- **FRN 2699021332** — Data Transmission and/or Internet Access; Charter Communications Operating, LLC (CARRIER); pre-discount cost $36,396.00
+  - Miscellaneous | Qty 0 | Eligible cost $396.00
+  - Fiber | Qty 0 | Eligible cost $36,000.00
+- **FRN 2699021338** — Data Transmission and/or Internet Access; Charter Communications Operating, LLC (CARRIER); pre-discount cost $129,748.80
+  - Miscellaneous | Qty 0 | Eligible cost $4,048.80
+  - Fiber | Qty 0 | Eligible cost $54,600.00
+  - Fiber | Qty 0 | Eligible cost $36,000.00
+  - Fiber | Qty 0 | Eligible cost $35,100.00
+
+### Recommended Action
+
+Account intelligence: current activity is primarily carrier/connectivity. Track contract expirations (2027-06-30, 2034-06-30) for future WAN, routing, optics, resiliency, and services planning.
 
 ---
 
@@ -122,6 +171,41 @@ Account intelligence: current activity is primarily carrier/connectivity. Track 
 ---
 
 ## Region 11 Education Service Center
+
+**Priority:** LOW (0)
+**Form 470 Records:** 0
+**Form 471 / FRN Records:** 0
+**FRN Line Items:** 0
+
+No current FY2026/FY2027 Form 470 or Form 471 activity found.
+
+### Recommended Action
+
+No current FY2026/FY2027 E-Rate signal. Maintain normal account cadence and continue monitoring for new Form 470 activity.
+
+---
+
+## Responsive Education Solutions
+
+**Priority:** LOW (0)
+**Form 470 Records:** 4
+**Form 471 / FRN Records:** 0
+**FRN Line Items:** 0
+
+### Current Form 470 Activity
+
+- **Form 470 260009822** — FY2026; Data Transmission and/or Internet Access; certified 2025-12-12; ACD 2026-01-09
+- **Form 470 260009822** — FY2026; Data Transmission and/or Internet Access; certified 2025-12-12; ACD 2026-01-09
+- **Form 470 260009822** — FY2026; Data Transmission and/or Internet Access; certified 2025-12-12; ACD 2026-01-09
+- **Form 470 260009822** — FY2026; Data Transmission and/or Internet Access; certified 2025-12-12; ACD 2026-01-09
+
+### Recommended Action
+
+Review the current E-Rate activity for adjacent technology, services, competitive, or lifecycle opportunities.
+
+---
+
+## Wichita Falls ISD
 
 **Priority:** LOW (0)
 **Form 470 Records:** 0
