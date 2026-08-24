@@ -1,5 +1,7 @@
 import csv
 import json
+from collections import defaultdict
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlencode
 from urllib.request import urlopen
@@ -9,6 +11,7 @@ USAC_LINE_API = "https://opendata.usac.org/resource/hbj5-2bpj.json"
 BASE_DIR = Path(__file__).resolve().parent.parent
 ACCOUNTS_FILE = BASE_DIR / "data" / "accounts.csv"
 OUTPUT_FILE = BASE_DIR / "data" / "usac_frn_line_items.json"
+BRIEF_FILE = BASE_DIR / "data" / "erate_frn_line_brief.md"
 
 
 def load_accounts():
@@ -58,6 +61,16 @@ def first_value(record, *names):
     return ""
 
 
+def money(value):
+    if value in (None, ""):
+        return "Not listed"
+
+    try:
+        return f"${float(value):,.2f}"
+    except ValueError:
+        return str(value)
+
+
 def simplify_record(record):
     return {
         "funding_year": first_value(
@@ -83,63 +96,174 @@ def simplify_record(record):
         ),
         "function": first_value(
             record,
-            "function",
-            "function_type"
+            "form_471_function_name",
+            "function"
         ),
         "product_type": first_value(
             record,
-            "product_type",
-            "type_of_product"
+            "form_471_product_name",
+            "product_type"
         ),
         "manufacturer": first_value(
             record,
+            "form_471_manufacturer_name",
             "manufacturer"
         ),
         "model": first_value(
             record,
-            "model",
-            "model_number"
+            "model_of_equipment",
+            "model"
+        ),
+        "unit": first_value(
+            record,
+            "form_471_unit_name"
         ),
         "quantity": first_value(
             record,
+            "one_time_quantity",
+            "monthly_quantity",
             "quantity"
         ),
         "unit_cost": first_value(
             record,
+            "one_time_eligible_costs",
+            "monthly_recurring_unit_eligible_costs",
             "unit_cost"
-        ),
-        "total_cost": first_value(
-            record,
-            "total_cost",
-            "total_pre_discount_costs"
         ),
         "eligible_cost": first_value(
             record,
-            "eligible_cost",
-            "total_eligible_cost"
+            "pre_discount_extended_eligible_line_item_costs",
+            "total_eligible_one_time_costs",
+            "total_eligible_recurring_costs"
         ),
-
-        # Temporary diagnostic fields.
-        # These let us see the exact USAC column names
-        # for useful product and cost information.
-        "raw_useful_fields": {
-            key: value
-            for key, value in record.items()
-            if any(term in key.lower() for term in [
-                "frn",
-                "function",
-                "product",
-                "manufacturer",
-                "make",
-                "model",
-                "quantity",
-                "unit",
-                "cost",
-                "eligible",
-                "service",
-            ])
-        },
     }
+
+
+def generate_brief(intelligence):
+    lines = [
+        "# E-Rate FRN Line Item Brief",
+        "",
+        f"Generated: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}",
+        "",
+        "Product- and service-level detail from current USAC FRN line items.",
+        "",
+        "---",
+        "",
+    ]
+
+    for account in intelligence:
+        lines.append(f"## {account['account_name']}")
+        lines.append("")
+        lines.append(f"**BEN:** {account['ben']}")
+        lines.append(
+            f"**Line Items Found:** {len(account['activity'])}"
+        )
+        lines.append("")
+
+        if not account["activity"]:
+            lines.append(
+                "No FY2026 or FY2027 current FRN line-item activity found."
+            )
+            lines.append("")
+            lines.append("---")
+            lines.append("")
+            continue
+
+        grouped = defaultdict(list)
+
+        for record in account["activity"]:
+            frn = record.get("frn") or "FRN not listed"
+            grouped[frn].append(record)
+
+        for frn, records in grouped.items():
+            lines.append(f"### FRN {frn}")
+            lines.append("")
+
+            total_eligible = 0.0
+
+            for record in records:
+                lines.append(
+                    f"#### {record.get('manufacturer') or 'Manufacturer not listed'}"
+                )
+                lines.append("")
+
+                if record.get("function"):
+                    lines.append(
+                        f"- **Function:** {record['function']}"
+                    )
+
+                if record.get("product_type"):
+                    lines.append(
+                        f"- **Product:** {record['product_type']}"
+                    )
+
+                if record.get("model"):
+                    lines.append(
+                        f"- **Model / Description:** {record['model']}"
+                    )
+
+                if record.get("quantity"):
+                    lines.append(
+                        f"- **Quantity:** {record['quantity']}"
+                    )
+
+                if record.get("unit"):
+                    lines.append(
+                        f"- **Unit:** {record['unit']}"
+                    )
+
+                if record.get("unit_cost"):
+                    lines.append(
+                        f"- **Eligible Unit Cost:** "
+                        f"{money(record['unit_cost'])}"
+                    )
+
+                if record.get("eligible_cost"):
+                    lines.append(
+                        f"- **Extended Eligible Cost:** "
+                        f"{money(record['eligible_cost'])}"
+                    )
+
+                    try:
+                        total_eligible += float(
+                            record["eligible_cost"]
+                        )
+                    except ValueError:
+                        pass
+
+                if record.get("service_type"):
+                    lines.append(
+                        f"- **Service Type:** {record['service_type']}"
+                    )
+
+                lines.append("")
+
+            lines.append(
+                f"**FRN Line-Item Eligible Total:** "
+                f"{money(total_eligible)}"
+            )
+            lines.append("")
+
+            manufacturers = sorted({
+                record.get("manufacturer", "")
+                for record in records
+                if record.get("manufacturer")
+            })
+
+            if manufacturers:
+                lines.append(
+                    f"**Manufacturers Identified:** "
+                    f"{', '.join(manufacturers)}"
+                )
+                lines.append("")
+
+            lines.append("---")
+            lines.append("")
+
+    BRIEF_FILE.write_text(
+        "\n".join(lines),
+        encoding="utf-8"
+    )
 
 
 def main():
@@ -180,8 +304,13 @@ def main():
     with OUTPUT_FILE.open("w", encoding="utf-8") as file:
         json.dump(intelligence, file, indent=2)
 
+    generate_brief(intelligence)
+
     print(
         f"FRN line-item intelligence saved to {OUTPUT_FILE}"
+    )
+    print(
+        f"FRN line-item brief saved to {BRIEF_FILE}"
     )
 
 
