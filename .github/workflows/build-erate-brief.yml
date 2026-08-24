@@ -8,6 +8,9 @@ on:
     paths:
       - "collectors/build_erate_brief.py"
       - "collectors/build_erate_pdf.py"
+      - "data/usac_470_activity.json"
+      - "data/usac_471_activity.json"
+      - "data/usac_frn_line_items.json"
       - ".github/workflows/build-erate-brief.yml"
   schedule:
     - cron: "0 13 * * *"
