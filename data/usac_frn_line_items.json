@@ -332,5 +332,181 @@
     "ben": "17002993",
     "line_item_count": 0,
     "activity": []
+  },
+  {
+    "account_name": "Responsive Education Solutions",
+    "ben": "232165",
+    "line_item_count": 0,
+    "activity": []
+  },
+  {
+    "account_name": "Burleson ISD",
+    "ben": "140849",
+    "line_item_count": 6,
+    "activity": [
+      {
+        "funding_year": "2026",
+        "form_471_application_number": "261016964",
+        "frn": "2699021332",
+        "frn_line_item": "",
+        "service_type": "",
+        "function": "Miscellaneous",
+        "product_type": "Taxes and USF Fees",
+        "manufacturer": "",
+        "model": "",
+        "unit": "",
+        "quantity": "0",
+        "unit_cost": "0",
+        "eligible_cost": "396"
+      },
+      {
+        "funding_year": "2026",
+        "form_471_application_number": "261016964",
+        "frn": "2699021338",
+        "frn_line_item": "",
+        "service_type": "",
+        "function": "Miscellaneous",
+        "product_type": "Taxes and USF Fees",
+        "manufacturer": "",
+        "model": "",
+        "unit": "",
+        "quantity": "0",
+        "unit_cost": "0",
+        "eligible_cost": "4048.8"
+      },
+      {
+        "funding_year": "2026",
+        "form_471_application_number": "261016964",
+        "frn": "2699021332",
+        "frn_line_item": "",
+        "service_type": "",
+        "function": "Fiber",
+        "product_type": "Ethernet",
+        "manufacturer": "",
+        "model": "",
+        "unit": "",
+        "quantity": "0",
+        "unit_cost": "0",
+        "eligible_cost": "36000"
+      },
+      {
+        "funding_year": "2026",
+        "form_471_application_number": "261016964",
+        "frn": "2699021338",
+        "frn_line_item": "",
+        "service_type": "",
+        "function": "Fiber",
+        "product_type": "Ethernet",
+        "manufacturer": "",
+        "model": "",
+        "unit": "",
+        "quantity": "0",
+        "unit_cost": "0",
+        "eligible_cost": "54600"
+      },
+      {
+        "funding_year": "2026",
+        "form_471_application_number": "261016964",
+        "frn": "2699021338",
+        "frn_line_item": "",
+        "service_type": "",
+        "function": "Fiber",
+        "product_type": "Ethernet",
+        "manufacturer": "",
+        "model": "",
+        "unit": "",
+        "quantity": "0",
+        "unit_cost": "0",
+        "eligible_cost": "36000"
+      },
+      {
+        "funding_year": "2026",
+        "form_471_application_number": "261016964",
+        "frn": "2699021338",
+        "frn_line_item": "",
+        "service_type": "",
+        "function": "Fiber",
+        "product_type": "Ethernet",
+        "manufacturer": "",
+        "model": "",
+        "unit": "",
+        "quantity": "0",
+        "unit_cost": "0",
+        "eligible_cost": "35100"
+      }
+    ]
+  },
+  {
+    "account_name": "Wichita Falls ISD",
+    "ben": "140959",
+    "line_item_count": 0,
+    "activity": []
+  },
+  {
+    "account_name": "Aledo ISD",
+    "ben": "140837",
+    "line_item_count": 4,
+    "activity": [
+      {
+        "funding_year": "2026",
+        "form_471_application_number": "261001458",
+        "frn": "2699000868",
+        "frn_line_item": "",
+        "service_type": "",
+        "function": "Miscellaneous",
+        "product_type": "Taxes and USF Fees",
+        "manufacturer": "",
+        "model": "",
+        "unit": "",
+        "quantity": "0",
+        "unit_cost": "0",
+        "eligible_cost": "10445.28"
+      },
+      {
+        "funding_year": "2026",
+        "form_471_application_number": "261001458",
+        "frn": "2699000868",
+        "frn_line_item": "",
+        "service_type": "",
+        "function": "Fiber",
+        "product_type": "Ethernet",
+        "manufacturer": "",
+        "model": "",
+        "unit": "",
+        "quantity": "0",
+        "unit_cost": "0",
+        "eligible_cost": "27780"
+      },
+      {
+        "funding_year": "2026",
+        "form_471_application_number": "261031296",
+        "frn": "2699045290",
+        "frn_line_item": "",
+        "service_type": "",
+        "function": "Fiber",
+        "product_type": "Ethernet",
+        "manufacturer": "",
+        "model": "",
+        "unit": "",
+        "quantity": "0",
+        "unit_cost": "0",
+        "eligible_cost": "29700"
+      },
+      {
+        "funding_year": "2026",
+        "form_471_application_number": "261031296",
+        "frn": "2699045290",
+        "frn_line_item": "",
+        "service_type": "",
+        "function": "Miscellaneous",
+        "product_type": "Taxes and USF Fees",
+        "manufacturer": "",
+        "model": "",
+        "unit": "",
+        "quantity": "0",
+        "unit_cost": "0",
+        "eligible_cost": "2435.4"
+      }
+    ]
   }
 ]

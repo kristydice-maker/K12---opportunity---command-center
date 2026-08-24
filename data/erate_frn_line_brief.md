@@ -1,6 +1,6 @@
 # E-Rate FRN Line Item Brief
 
-Generated: 2026-08-24 17:34 UTC
+Generated: 2026-08-24 18:49 UTC
 
 Product- and service-level detail from current USAC FRN line items.
 
@@ -256,5 +256,137 @@ Product- and service-level detail from current USAC FRN line items.
 **Line Items Found:** 0
 
 No FY2026 or FY2027 current FRN line-item activity found.
+
+---
+
+## Responsive Education Solutions
+
+**BEN:** 232165
+**Line Items Found:** 0
+
+No FY2026 or FY2027 current FRN line-item activity found.
+
+---
+
+## Burleson ISD
+
+**BEN:** 140849
+**Line Items Found:** 6
+
+### FRN 2699021332
+
+#### Manufacturer not listed
+
+- **Function:** Miscellaneous
+- **Product:** Taxes and USF Fees
+- **Quantity:** 0
+- **Eligible Unit Cost:** $0.00
+- **Extended Eligible Cost:** $396.00
+
+#### Manufacturer not listed
+
+- **Function:** Fiber
+- **Product:** Ethernet
+- **Quantity:** 0
+- **Eligible Unit Cost:** $0.00
+- **Extended Eligible Cost:** $36,000.00
+
+**FRN Line-Item Eligible Total:** $36,396.00
+
+---
+
+### FRN 2699021338
+
+#### Manufacturer not listed
+
+- **Function:** Miscellaneous
+- **Product:** Taxes and USF Fees
+- **Quantity:** 0
+- **Eligible Unit Cost:** $0.00
+- **Extended Eligible Cost:** $4,048.80
+
+#### Manufacturer not listed
+
+- **Function:** Fiber
+- **Product:** Ethernet
+- **Quantity:** 0
+- **Eligible Unit Cost:** $0.00
+- **Extended Eligible Cost:** $54,600.00
+
+#### Manufacturer not listed
+
+- **Function:** Fiber
+- **Product:** Ethernet
+- **Quantity:** 0
+- **Eligible Unit Cost:** $0.00
+- **Extended Eligible Cost:** $36,000.00
+
+#### Manufacturer not listed
+
+- **Function:** Fiber
+- **Product:** Ethernet
+- **Quantity:** 0
+- **Eligible Unit Cost:** $0.00
+- **Extended Eligible Cost:** $35,100.00
+
+**FRN Line-Item Eligible Total:** $129,748.80
+
+---
+
+## Wichita Falls ISD
+
+**BEN:** 140959
+**Line Items Found:** 0
+
+No FY2026 or FY2027 current FRN line-item activity found.
+
+---
+
+## Aledo ISD
+
+**BEN:** 140837
+**Line Items Found:** 4
+
+### FRN 2699000868
+
+#### Manufacturer not listed
+
+- **Function:** Miscellaneous
+- **Product:** Taxes and USF Fees
+- **Quantity:** 0
+- **Eligible Unit Cost:** $0.00
+- **Extended Eligible Cost:** $10,445.28
+
+#### Manufacturer not listed
+
+- **Function:** Fiber
+- **Product:** Ethernet
+- **Quantity:** 0
+- **Eligible Unit Cost:** $0.00
+- **Extended Eligible Cost:** $27,780.00
+
+**FRN Line-Item Eligible Total:** $38,225.28
+
+---
+
+### FRN 2699045290
+
+#### Manufacturer not listed
+
+- **Function:** Fiber
+- **Product:** Ethernet
+- **Quantity:** 0
+- **Eligible Unit Cost:** $0.00
+- **Extended Eligible Cost:** $29,700.00
+
+#### Manufacturer not listed
+
+- **Function:** Miscellaneous
+- **Product:** Taxes and USF Fees
+- **Quantity:** 0
+- **Eligible Unit Cost:** $0.00
+- **Extended Eligible Cost:** $2,435.40
+
+**FRN Line-Item Eligible Total:** $32,135.40
 
 ---
