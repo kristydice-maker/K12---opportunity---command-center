@@ -1,6 +1,6 @@
 # E-Rate FRN Line Item Brief
 
-Generated: 2026-08-31 12:49 UTC
+Generated: 2026-09-01 12:54 UTC
 
 Product- and service-level detail from current USAC FRN line items.
 
