@@ -1,6 +1,6 @@
 # E-Rate Opportunity Brief
 
-Generated: 2026-09-15 16:29 UTC
+Generated: 2026-09-16 16:21 UTC
 
 Current USAC Form 470 intelligence for monitored accounts.
 
