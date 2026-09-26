@@ -1,6 +1,6 @@
 # E-Rate Account Intelligence Brief
 
-Generated: 2026-09-25 17:45 UTC
+Generated: 2026-09-26 16:52 UTC
 
 Consolidated Form 470, Form 471 / FRN, and FRN line-item intelligence for monitored E-Rate accounts.
 
@@ -156,13 +156,13 @@ Competitive action: review the awarded technology, provider footprint (GovConnec
 
 ### Form 471 / FRN Outcomes
 
+- **FRN 2699033211** — Data Transmission and/or Internet Access; Unite Private Networks, LLC (CARRIER); pre-discount cost $44,387.88
+  - Fiber | Qty 0 | Eligible cost $44,280.00
+  - Miscellaneous | Qty 0 | Eligible cost $107.88
 - **FRN 2699033205** — Data Transmission and/or Internet Access; Unite Private Networks, LLC (CARRIER); pre-discount cost $603,879.12
   - Fiber | Qty 0 | Eligible cost $533,500.80
   - Miscellaneous | Qty 0 | Eligible cost $9,404.88
   - Fiber | Qty 0 | Eligible cost $60,973.44
-- **FRN 2699033211** — Data Transmission and/or Internet Access; Unite Private Networks, LLC (CARRIER); pre-discount cost $44,387.88
-  - Fiber | Qty 0 | Eligible cost $44,280.00
-  - Miscellaneous | Qty 0 | Eligible cost $107.88
 
 ### Recommended Action
 
