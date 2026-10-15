@@ -1,6 +1,6 @@
 # E-Rate Account Intelligence Brief
 
-Generated: 2026-10-14 17:45 UTC
+Generated: 2026-10-15 17:35 UTC
 
 Consolidated Form 470, Form 471 / FRN, and FRN line-item intelligence for monitored E-Rate accounts.
 
@@ -85,12 +85,12 @@ Account intelligence: current activity is primarily carrier/connectivity. Track 
 
 ### Form 471 / FRN Outcomes
 
-- **FRN 2699056499** — Data Transmission and/or Internet Access; Unite Private Networks, LLC (CARRIER); pre-discount cost $127,307.88
-  - Fiber | Qty 0 | Eligible cost $117,936.00
-  - Miscellaneous | Qty 0 | Eligible cost $9,371.88
 - **FRN 2699056474** — Data Transmission and/or Internet Access; Unite Private Networks, LLC (CARRIER); pre-discount cost $270,050.88
   - Miscellaneous | Qty 0 | Eligible cost $9,603.48
   - Fiber | Qty 0 | Eligible cost $260,447.40
+- **FRN 2699056499** — Data Transmission and/or Internet Access; Unite Private Networks, LLC (CARRIER); pre-discount cost $127,307.88
+  - Fiber | Qty 0 | Eligible cost $117,936.00
+  - Miscellaneous | Qty 0 | Eligible cost $9,371.88
 - **FRN 2699058642** — Data Transmission and/or Internet Access; Zayo Group, LLC (CARRIER); pre-discount cost $96,752.16
   - Fiber | Qty 0 | Eligible cost $46,008.00
   - Miscellaneous | Qty 0 | Eligible cost $4,736.16
@@ -184,13 +184,13 @@ Competitive action: review the awarded technology, provider footprint (GovConnec
 
 ### Form 471 / FRN Outcomes
 
-- **FRN 2699033211** — Data Transmission and/or Internet Access; Unite Private Networks, LLC (CARRIER); pre-discount cost $44,387.88
-  - Fiber | Qty 0 | Eligible cost $44,280.00
-  - Miscellaneous | Qty 0 | Eligible cost $107.88
 - **FRN 2699033205** — Data Transmission and/or Internet Access; Unite Private Networks, LLC (CARRIER); pre-discount cost $603,879.12
   - Fiber | Qty 0 | Eligible cost $533,500.80
   - Miscellaneous | Qty 0 | Eligible cost $9,404.88
   - Fiber | Qty 0 | Eligible cost $60,973.44
+- **FRN 2699033211** — Data Transmission and/or Internet Access; Unite Private Networks, LLC (CARRIER); pre-discount cost $44,387.88
+  - Fiber | Qty 0 | Eligible cost $44,280.00
+  - Miscellaneous | Qty 0 | Eligible cost $107.88
 
 ### Recommended Action
 
