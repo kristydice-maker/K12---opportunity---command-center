@@ -1,6 +1,6 @@
 # E-Rate Account Intelligence Brief
 
-Generated: 2026-10-15 17:35 UTC
+Generated: 2026-10-16 17:09 UTC
 
 Consolidated Form 470, Form 471 / FRN, and FRN line-item intelligence for monitored E-Rate accounts.
 
