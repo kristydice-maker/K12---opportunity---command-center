@@ -1,6 +1,6 @@
 # E-Rate Opportunity Brief
 
-Generated: 2026-10-18 15:32 UTC
+Generated: 2026-10-19 18:28 UTC
 
 Current USAC Form 470 intelligence for monitored accounts.
 
@@ -49,7 +49,7 @@ No FY2026 or FY2027 current Form 470 activity found.
 **BEN:** 140932
 **Solution Fit:** HIGH
 **Opportunity Type:** Networking
-**Opportunity Timing:** PRE-ACD
+**Opportunity Timing:** AWARD / FOLLOW-UP
 
 ### Form 470 270000641
 
@@ -57,14 +57,14 @@ No FY2026 or FY2027 current Form 470 activity found.
 - **Status:** Certified
 - **Certified:** 2026-09-21
 - **Allowable Contract Date:** 2026-10-19
-- **Timing:** PRE-ACD
+- **Timing:** AWARD / FOLLOW-UP
 - **Service Type:** Data Transmission and/or Internet Access
 - **Requested Functions:** Self-Provisioned Network (Applicant Owned and Operated Network), Services Provided Over Third-Party Networks, Category One Maintenance and Operations, Leased Dark Fiber, Leased Lit Fiber, Category One Network Equipment
 - **Form 470:** [Open USAC Form 470](https://publicdata.usac.org/EPC/Prd/Form470/270000641/140932/22673810-USAC_FCC_FORM_470_APPLICATION_270000641_CERTIFIED.pdf)
 - **RFP:** [Open RFP Document](https://publicdata.usac.org/EPC/Prd/Form470/270000641/140932/22673806-2611%2019%20Fiber%20WAN%20ADDENDUM%201.pdf)
 
 **Suggested Sales Action:**
-Review the Form 470 and RFP promptly. The Allowable Contract Date has not yet passed. The requested technology aligns with Netsync networking capabilities, including switching, wireless, routing, licensing, and services.
+The Allowable Contract Date has passed recently. Check for award activity, Form 471 filings, board approval, and customer follow-up. The requested technology aligns with Netsync networking capabilities, including switching, wireless, routing, licensing, and services.
 
 ---
 
