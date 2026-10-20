@@ -1,6 +1,6 @@
 # E-Rate Account Intelligence Brief
 
-Generated: 2026-10-19 18:59 UTC
+Generated: 2026-10-20 17:45 UTC
 
 Consolidated Form 470, Form 471 / FRN, and FRN line-item intelligence for monitored E-Rate accounts.
 
@@ -105,8 +105,8 @@ Account intelligence: current activity is primarily carrier/connectivity. Track 
 
 ## Keller ISD
 
-**Priority:** HIGH (700)
-**Form 470 Records:** 24
+**Priority:** HIGH (2200)
+**Form 470 Records:** 84
 **Form 471 / FRN Records:** 2
 **FRN Line Items:** 6
 
@@ -119,30 +119,90 @@ Account intelligence: current activity is primarily carrier/connectivity. Track 
 
 ### Current Form 470 Activity
 
-- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-10-19
-- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-10-19
-- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-10-19
-- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-10-19
-- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-10-19
-- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-10-19
-- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-10-19
-- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-10-19
-- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-10-19
-- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-10-19
-- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-10-19
-- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-10-19
-- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-10-19
-- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-10-19
-- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-10-19
-- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-10-19
-- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-10-19
-- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-10-19
-- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-10-19
-- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-10-19
-- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-10-19
-- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-10-19
-- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-10-19
-- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-10-19
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
+- **Form 470 270000641** — FY2027; Data Transmission and/or Internet Access; certified 2026-09-21; ACD 2026-11-16
 
 ### Form 471 / FRN Outcomes
 
