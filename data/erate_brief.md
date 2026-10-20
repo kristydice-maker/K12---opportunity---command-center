@@ -1,6 +1,6 @@
 # E-Rate Opportunity Brief
 
-Generated: 2026-10-19 18:28 UTC
+Generated: 2026-10-20 16:30 UTC
 
 Current USAC Form 470 intelligence for monitored accounts.
 
@@ -49,22 +49,22 @@ No FY2026 or FY2027 current Form 470 activity found.
 **BEN:** 140932
 **Solution Fit:** HIGH
 **Opportunity Type:** Networking
-**Opportunity Timing:** AWARD / FOLLOW-UP
+**Opportunity Timing:** PRE-ACD
 
 ### Form 470 270000641
 
 - **Funding Year:** 2027
 - **Status:** Certified
 - **Certified:** 2026-09-21
-- **Allowable Contract Date:** 2026-10-19
-- **Timing:** AWARD / FOLLOW-UP
+- **Allowable Contract Date:** 2026-11-16
+- **Timing:** PRE-ACD
 - **Service Type:** Data Transmission and/or Internet Access
 - **Requested Functions:** Self-Provisioned Network (Applicant Owned and Operated Network), Services Provided Over Third-Party Networks, Category One Maintenance and Operations, Leased Dark Fiber, Leased Lit Fiber, Category One Network Equipment
-- **Form 470:** [Open USAC Form 470](https://publicdata.usac.org/EPC/Prd/Form470/270000641/140932/22673810-USAC_FCC_FORM_470_APPLICATION_270000641_CERTIFIED.pdf)
-- **RFP:** [Open RFP Document](https://publicdata.usac.org/EPC/Prd/Form470/270000641/140932/22673806-2611%2019%20Fiber%20WAN%20ADDENDUM%201.pdf)
+- **Form 470:** [Open USAC Form 470](https://publicdata.usac.org/EPC/Prd/Form470/270000641/140932/22778047-USAC_FCC_FORM_470_APPLICATION_270000641_CERTIFIED.pdf)
+- **RFP:** [Open RFP Document](https://publicdata.usac.org/EPC/Prd/Form470/270000641/140932/22776072-2611%2019%20%20Addendum%202.pdf)
 
 **Suggested Sales Action:**
-The Allowable Contract Date has passed recently. Check for award activity, Form 471 filings, board approval, and customer follow-up. The requested technology aligns with Netsync networking capabilities, including switching, wireless, routing, licensing, and services.
+Review the Form 470 and RFP promptly. The Allowable Contract Date has not yet passed. The requested technology aligns with Netsync networking capabilities, including switching, wireless, routing, licensing, and services.
 
 ---
 
