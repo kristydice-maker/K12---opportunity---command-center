@@ -1,6 +1,6 @@
 # E-Rate Opportunity Brief
 
-Generated: 2026-10-21 16:48 UTC
+Generated: 2026-10-22 16:48 UTC
 
 Current USAC Form 470 intelligence for monitored accounts.
 
@@ -36,11 +36,25 @@ Treat this Form 470 as historical intelligence. Check Form 471 and FRN data to d
 ## Irving ISD
 
 **BEN:** 140448
-**Solution Fit:** NONE
-**Opportunity Type:** General E-Rate
-**Opportunity Timing:** NO CURRENT ACTIVITY
+**Solution Fit:** HIGH
+**Opportunity Type:** Networking
+**Opportunity Timing:** PRE-ACD
 
-No FY2026 or FY2027 current Form 470 activity found.
+### Form 470 270002425
+
+- **Funding Year:** 2027
+- **Status:** Certified
+- **Certified:** 2026-10-21
+- **Allowable Contract Date:** 2026-11-18
+- **Timing:** PRE-ACD
+- **Service Type:** Internal Connections, Basic Maintenance of Internal Connections
+- **Requested Functions:** Wireless Access Points and Necessary Software and Licenses, Wireless Access Points
+- **Manufacturer:** Cisco Systems or equivalent, Cisco Systems
+- **Form 470:** [Open USAC Form 470](https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22790325-USAC_FCC_FORM_470_APPLICATION_270002425_CERTIFIED.pdf)
+- **RFP:** [Open RFP Document](https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22789563-Final%20Bid%20Invitation%20RFP%2027B%2001%20908.pdf)
+
+**Suggested Sales Action:**
+Review the Form 470 and RFP promptly. The Allowable Contract Date has not yet passed. The requested technology aligns with Netsync networking capabilities, including switching, wireless, routing, licensing, and services.
 
 ---
 
