@@ -1,6 +1,6 @@
 # E-Rate Account Intelligence Brief
 
-Generated: 2026-10-21 17:53 UTC
+Generated: 2026-10-22 17:50 UTC
 
 Consolidated Form 470, Form 471 / FRN, and FRN line-item intelligence for monitored E-Rate accounts.
 
@@ -75,16 +75,28 @@ Account intelligence: current activity is primarily carrier/connectivity. Track 
 
 ## Irving ISD
 
-**Priority:** WATCH (20)
-**Form 470 Records:** 0
+**Priority:** HIGH (170)
+**Form 470 Records:** 6
 **Form 471 / FRN Records:** 4
 **FRN Line Items:** 8
 
 **Priority Signals:**
 - E-Rate project over $100K
+- FY2027 Form 470 activity
+
+### Current Form 470 Activity
+
+- **Form 470 270002425** — FY2027; Internal Connections; certified 2026-10-21; ACD 2026-11-18
+- **Form 470 270002425** — FY2027; Internal Connections; certified 2026-10-21; ACD 2026-11-18
+- **Form 470 270002425** — FY2027; Internal Connections; certified 2026-10-21; ACD 2026-11-18
+- **Form 470 270002425** — FY2027; Basic Maintenance of Internal Connections; certified 2026-10-21; ACD 2026-11-18
+- **Form 470 270002425** — FY2027; Basic Maintenance of Internal Connections; certified 2026-10-21; ACD 2026-11-18
+- **Form 470 270002425** — FY2027; Basic Maintenance of Internal Connections; certified 2026-10-21; ACD 2026-11-18
 
 ### Form 471 / FRN Outcomes
 
+- **FRN 2699058488** — Data Transmission and/or Internet Access; Unite Private Networks, LLC (CARRIER); pre-discount cost $10,500.00
+  - Fiber | Qty 0 | Eligible cost $10,500.00
 - **FRN 2699056474** — Data Transmission and/or Internet Access; Unite Private Networks, LLC (CARRIER); pre-discount cost $270,050.88
   - Miscellaneous | Qty 0 | Eligible cost $9,603.48
   - Fiber | Qty 0 | Eligible cost $260,447.40
@@ -94,12 +106,10 @@ Account intelligence: current activity is primarily carrier/connectivity. Track 
 - **FRN 2699058642** — Data Transmission and/or Internet Access; Zayo Group, LLC (CARRIER); pre-discount cost $96,752.16
   - Fiber | Qty 0 | Eligible cost $46,008.00
   - Miscellaneous | Qty 0 | Eligible cost $4,736.16
-- **FRN 2699058488** — Data Transmission and/or Internet Access; Unite Private Networks, LLC (CARRIER); pre-discount cost $10,500.00
-  - Fiber | Qty 0 | Eligible cost $10,500.00
 
 ### Recommended Action
 
-Account intelligence: current activity is primarily carrier/connectivity. Track contract expirations (2029-06-30) for future WAN, routing, optics, resiliency, and services planning.
+Active pursuit: review FY2027 Form 470 activity and attached RFPs for opportunities that align with Netsync solutions.
 
 ---
 
