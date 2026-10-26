@@ -1,6 +1,6 @@
 # E-Rate Account Intelligence Brief
 
-Generated: 2026-10-25 16:57 UTC
+Generated: 2026-10-26 19:00 UTC
 
 Consolidated Form 470, Form 471 / FRN, and FRN line-item intelligence for monitored E-Rate accounts.
 
@@ -95,8 +95,6 @@ Account intelligence: current activity is primarily carrier/connectivity. Track 
 
 ### Form 471 / FRN Outcomes
 
-- **FRN 2699058488** — Data Transmission and/or Internet Access; Unite Private Networks, LLC (CARRIER); pre-discount cost $10,500.00
-  - Fiber | Qty 0 | Eligible cost $10,500.00
 - **FRN 2699056474** — Data Transmission and/or Internet Access; Unite Private Networks, LLC (CARRIER); pre-discount cost $270,050.88
   - Miscellaneous | Qty 0 | Eligible cost $9,603.48
   - Fiber | Qty 0 | Eligible cost $260,447.40
@@ -106,6 +104,8 @@ Account intelligence: current activity is primarily carrier/connectivity. Track 
 - **FRN 2699058642** — Data Transmission and/or Internet Access; Zayo Group, LLC (CARRIER); pre-discount cost $96,752.16
   - Fiber | Qty 0 | Eligible cost $46,008.00
   - Miscellaneous | Qty 0 | Eligible cost $4,736.16
+- **FRN 2699058488** — Data Transmission and/or Internet Access; Unite Private Networks, LLC (CARRIER); pre-discount cost $10,500.00
+  - Fiber | Qty 0 | Eligible cost $10,500.00
 
 ### Recommended Action
 
