@@ -1,6 +1,6 @@
 # E-Rate FRN Line Item Brief
 
-Generated: 2026-10-29 18:39 UTC
+Generated: 2026-10-30 18:12 UTC
 
 Product- and service-level detail from current USAC FRN line items.
 
@@ -9,7 +9,73 @@ Product- and service-level detail from current USAC FRN line items.
 ## Lewisville ISD
 
 **BEN:** 140469
-**Line Items Found:** 5
+**Line Items Found:** 10
+
+### FRN 2699061956
+
+#### Cisco Systems
+
+- **Function:** Wireless Data Distribution
+- **Product:** Access Point
+- **Model / Description:** CW-MNT-ART2-00
+- **Quantity:** 605
+- **Unit:** Each
+- **Eligible Unit Cost:** $66.50
+- **Extended Eligible Cost:** $40,232.50
+
+#### Cisco Systems
+
+- **Function:** Wireless Data Distribution
+- **Product:** Access Point
+- **Model / Description:** CW9176I-CFG
+- **Quantity:** 5677
+- **Unit:** Each
+- **Eligible Unit Cost:** $853.73
+- **Extended Eligible Cost:** $4,846,625.21
+
+#### Cisco Systems
+
+- **Function:** Wireless Data Distribution
+- **Product:** Access Point
+- **Model / Description:** CW9176D1-CFG
+- **Quantity:** 10
+- **Unit:** Each
+- **Eligible Unit Cost:** $965.68
+- **Extended Eligible Cost:** $9,656.80
+
+#### Other
+
+- **Function:** Miscellaneous
+- **Product:** Installation, Activation, & Initial Configuration
+- **Model / Description:** Install
+- **Quantity:** 1
+- **Unit:** Each
+- **Eligible Unit Cost:** $676,876.80
+- **Extended Eligible Cost:** $676,876.80
+
+**FRN Line-Item Eligible Total:** $5,573,391.31
+
+**Manufacturers Identified:** Cisco Systems, Other
+
+---
+
+### FRN 2699061957
+
+#### Cisco Systems
+
+- **Function:** License
+- **Product:** License
+- **Model / Description:** E3N-CW-A
+- **Quantity:** 6060
+- **Unit:** Each
+- **Eligible Unit Cost:** $624.60
+- **Extended Eligible Cost:** $3,785,076.00
+
+**FRN Line-Item Eligible Total:** $3,785,076.00
+
+**Manufacturers Identified:** Cisco Systems
+
+---
 
 ### FRN 2699033205
 
