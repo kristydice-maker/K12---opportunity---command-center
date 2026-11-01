@@ -1,6 +1,6 @@
 # E-Rate Form 471 / FRN Outcome Brief
 
-Generated: 2026-10-31 17:18 UTC
+Generated: 2026-11-01 18:01 UTC
 
 This report summarizes current Form 471 funding requests and FRN outcomes for monitored E-Rate accounts.
 
