@@ -1,6 +1,6 @@
 # E-Rate Account Intelligence Brief
 
-Generated: 2026-11-01 18:15 UTC
+Generated: 2026-11-02 22:06 UTC
 
 Consolidated Form 470, Form 471 / FRN, and FRN line-item intelligence for monitored E-Rate accounts.
 
@@ -256,20 +256,20 @@ Competitive action: review the awarded technology, provider footprint (GovConnec
 
 ### Form 471 / FRN Outcomes
 
+- **FRN 2699061957** — Internal Connections; Netsync Network Solutions (NETSYNC); pre-discount cost $3,785,076.00
+  - Cisco Systems | License | E3N-CW-A | Qty 6060 | Eligible cost $3,785,076.00
 - **FRN 2699061956** — Internal Connections; Netsync Network Solutions (NETSYNC); pre-discount cost $5,573,391.31
   - Cisco Systems | Wireless Data Distribution | CW-MNT-ART2-00 | Qty 605 | Eligible cost $40,232.50
   - Cisco Systems | Wireless Data Distribution | CW9176I-CFG | Qty 5677 | Eligible cost $4,846,625.21
   - Cisco Systems | Wireless Data Distribution | CW9176D1-CFG | Qty 10 | Eligible cost $9,656.80
   - Other | Miscellaneous | Install | Qty 1 | Eligible cost $676,876.80
-- **FRN 2699061957** — Internal Connections; Netsync Network Solutions (NETSYNC); pre-discount cost $3,785,076.00
-  - Cisco Systems | License | E3N-CW-A | Qty 6060 | Eligible cost $3,785,076.00
+- **FRN 2699033211** — Data Transmission and/or Internet Access; Unite Private Networks, LLC (CARRIER); pre-discount cost $44,387.88
+  - Fiber | Qty 0 | Eligible cost $44,280.00
+  - Miscellaneous | Qty 0 | Eligible cost $107.88
 - **FRN 2699033205** — Data Transmission and/or Internet Access; Unite Private Networks, LLC (CARRIER); pre-discount cost $603,879.12
   - Fiber | Qty 0 | Eligible cost $533,500.80
   - Miscellaneous | Qty 0 | Eligible cost $9,404.88
   - Fiber | Qty 0 | Eligible cost $60,973.44
-- **FRN 2699033211** — Data Transmission and/or Internet Access; Unite Private Networks, LLC (CARRIER); pre-discount cost $44,387.88
-  - Fiber | Qty 0 | Eligible cost $44,280.00
-  - Miscellaneous | Qty 0 | Eligible cost $107.88
 
 ### Recommended Action
 
