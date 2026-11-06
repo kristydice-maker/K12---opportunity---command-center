@@ -1,6 +1,6 @@
 # E-Rate Account Intelligence Brief
 
-Generated: 2026-11-05 20:27 UTC
+Generated: 2026-11-06 19:50 UTC
 
 Consolidated Form 470, Form 471 / FRN, and FRN line-item intelligence for monitored E-Rate accounts.
 
@@ -95,6 +95,8 @@ Account intelligence: current activity is primarily carrier/connectivity. Track 
 
 ### Form 471 / FRN Outcomes
 
+- **FRN 2699058488** — Data Transmission and/or Internet Access; Unite Private Networks, LLC (CARRIER); pre-discount cost $10,500.00
+  - Fiber | Qty 0 | Eligible cost $10,500.00
 - **FRN 2699056474** — Data Transmission and/or Internet Access; Unite Private Networks, LLC (CARRIER); pre-discount cost $270,050.88
   - Miscellaneous | Qty 0 | Eligible cost $9,603.48
   - Fiber | Qty 0 | Eligible cost $260,447.40
@@ -104,8 +106,6 @@ Account intelligence: current activity is primarily carrier/connectivity. Track 
 - **FRN 2699058642** — Data Transmission and/or Internet Access; Zayo Group, LLC (CARRIER); pre-discount cost $96,752.16
   - Fiber | Qty 0 | Eligible cost $46,008.00
   - Miscellaneous | Qty 0 | Eligible cost $4,736.16
-- **FRN 2699058488** — Data Transmission and/or Internet Access; Unite Private Networks, LLC (CARRIER); pre-discount cost $10,500.00
-  - Fiber | Qty 0 | Eligible cost $10,500.00
 
 ### Recommended Action
 
@@ -316,13 +316,30 @@ Review the current E-Rate activity for adjacent technology, services, competitiv
 
 **Priority:** LOW (0)
 **Form 470 Records:** 0
-**Form 471 / FRN Records:** 0
-**FRN Line Items:** 0
+**Form 471 / FRN Records:** 3
+**FRN Line Items:** 13
 
-No current FY2026/FY2027 Form 470 or Form 471 activity found.
+### Form 471 / FRN Outcomes
+
+- **FRN 2699024704** — Data Transmission and/or Internet Access; Zayo Group, LLC (CARRIER); pre-discount cost $53,596.80
+  - Fiber | Qty 0 | Eligible cost $40,512.00
+  - Miscellaneous | Qty 0 | Eligible cost $4,084.80
+  - Other | Qty 0 | Eligible cost $9,000.00
+- **FRN 2699024719** — Data Transmission and/or Internet Access; Zayo Group, LLC (CARRIER); pre-discount cost $99,748.32
+  - Fiber | Qty 0 | Eligible cost $13,160.16
+  - Fiber | Qty 0 | Eligible cost $14,221.20
+  - Miscellaneous | Qty 0 | Eligible cost $5,290.80
+  - Fiber | Qty 0 | Eligible cost $3,690.36
+  - Fiber | Qty 0 | Eligible cost $16,134.12
+  - Fiber | Qty 0 | Eligible cost $8,126.88
+  - Fiber | Qty 0 | Eligible cost $12,549.60
+  - Fiber | Qty 0 | Eligible cost $26,575.20
+- **FRN 2699024778** — Data Transmission and/or Internet Access; Zayo Group, LLC (CARRIER); pre-discount cost $9,600.00
+  - Miscellaneous | Qty 0 | Eligible cost $0.00
+  - Fiber | Qty 0 | Eligible cost $9,600.00
 
 ### Recommended Action
 
-No current FY2026/FY2027 E-Rate signal. Maintain normal account cadence and continue monitoring for new Form 470 activity.
+Account intelligence: current activity is primarily carrier/connectivity. Track contract expirations (2027-06-30, 2028-06-30) for future WAN, routing, optics, resiliency, and services planning.
 
 ---
