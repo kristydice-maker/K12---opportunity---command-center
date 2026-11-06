@@ -1,6 +1,6 @@
 # E-Rate FRN Line Item Brief
 
-Generated: 2026-11-05 20:16 UTC
+Generated: 2026-11-06 19:41 UTC
 
 Product- and service-level detail from current USAC FRN line items.
 
@@ -402,9 +402,127 @@ No FY2026 or FY2027 current FRN line-item activity found.
 ## Wichita Falls ISD
 
 **BEN:** 140959
-**Line Items Found:** 0
+**Line Items Found:** 13
 
-No FY2026 or FY2027 current FRN line-item activity found.
+### FRN 2699024719
+
+#### Manufacturer not listed
+
+- **Function:** Fiber
+- **Product:** Dark Fiber (No Special Construction)
+- **Quantity:** 0
+- **Eligible Unit Cost:** $0.00
+- **Extended Eligible Cost:** $13,160.16
+
+#### Manufacturer not listed
+
+- **Function:** Fiber
+- **Product:** Dark Fiber (No Special Construction)
+- **Quantity:** 0
+- **Eligible Unit Cost:** $0.00
+- **Extended Eligible Cost:** $14,221.20
+
+#### Manufacturer not listed
+
+- **Function:** Miscellaneous
+- **Product:** Taxes and USF Fees
+- **Quantity:** 0
+- **Eligible Unit Cost:** $0.00
+- **Extended Eligible Cost:** $5,290.80
+
+#### Manufacturer not listed
+
+- **Function:** Fiber
+- **Product:** Dark Fiber (No Special Construction)
+- **Quantity:** 0
+- **Eligible Unit Cost:** $0.00
+- **Extended Eligible Cost:** $3,690.36
+
+#### Manufacturer not listed
+
+- **Function:** Fiber
+- **Product:** Dark Fiber (No Special Construction)
+- **Quantity:** 0
+- **Eligible Unit Cost:** $0.00
+- **Extended Eligible Cost:** $16,134.12
+
+#### Manufacturer not listed
+
+- **Function:** Fiber
+- **Product:** Dark Fiber (No Special Construction)
+- **Quantity:** 0
+- **Eligible Unit Cost:** $0.00
+- **Extended Eligible Cost:** $8,126.88
+
+#### Manufacturer not listed
+
+- **Function:** Fiber
+- **Product:** Dark Fiber (No Special Construction)
+- **Quantity:** 0
+- **Eligible Unit Cost:** $0.00
+- **Extended Eligible Cost:** $12,549.60
+
+#### Manufacturer not listed
+
+- **Function:** Fiber
+- **Product:** Dark Fiber (No Special Construction)
+- **Quantity:** 0
+- **Eligible Unit Cost:** $0.00
+- **Extended Eligible Cost:** $26,575.20
+
+**FRN Line-Item Eligible Total:** $99,748.32
+
+---
+
+### FRN 2699024704
+
+#### Manufacturer not listed
+
+- **Function:** Fiber
+- **Product:** Ethernet
+- **Quantity:** 0
+- **Eligible Unit Cost:** $0.00
+- **Extended Eligible Cost:** $40,512.00
+
+#### Manufacturer not listed
+
+- **Function:** Miscellaneous
+- **Product:** Taxes and USF Fees
+- **Quantity:** 0
+- **Eligible Unit Cost:** $0.00
+- **Extended Eligible Cost:** $4,084.80
+
+#### Manufacturer not listed
+
+- **Function:** Other
+- **Product:** Other
+- **Quantity:** 0
+- **Eligible Unit Cost:** $0.00
+- **Extended Eligible Cost:** $9,000.00
+
+**FRN Line-Item Eligible Total:** $53,596.80
+
+---
+
+### FRN 2699024778
+
+#### Manufacturer not listed
+
+- **Function:** Miscellaneous
+- **Product:** Taxes and USF Fees
+- **Quantity:** 0
+- **Eligible Unit Cost:** $0.00
+- **Extended Eligible Cost:** $0.00
+
+#### Manufacturer not listed
+
+- **Function:** Fiber
+- **Product:** Dark Fiber (No Special Construction)
+- **Quantity:** 0
+- **Eligible Unit Cost:** $0.00
+- **Extended Eligible Cost:** $9,600.00
+
+**FRN Line-Item Eligible Total:** $9,600.00
 
 ---
 
