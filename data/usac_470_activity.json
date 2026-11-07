@@ -121,7 +121,7 @@
   {
     "account_name": "Irving ISD",
     "ben": "140448",
-    "active_470_rows": 6,
+    "active_470_rows": 10,
     "activity": [
       {
         "application_number": "270002425",
@@ -133,7 +133,35 @@
         "function": "Wireless Access Points and Necessary Software and Licenses",
         "manufacturer": "Cisco Systems or equivalent",
         "quantity": "803",
-        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22790325-USAC_FCC_FORM_470_APPLICATION_270002425_CERTIFIED.pdf",
+        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22898680-USAC_FCC_FORM_470_APPLICATION_270002425_CERTIFIED.pdf",
+        "rfp_documents": "https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22898672-Addendum%201%20Bid%20Invitation%20RFP%2027B%2001%20908.pdf",
+        "consultant": ""
+      },
+      {
+        "application_number": "270002425",
+        "funding_year": "2027",
+        "status": "Certified",
+        "certified_date": "2026-10-21T14:32:27.000",
+        "allowable_contract_date": "2026-11-18T00:00:00.000",
+        "service_type": "Internal Connections",
+        "function": "Wireless Access Points and Necessary Software and Licenses",
+        "manufacturer": "Cisco Systems or equivalent",
+        "quantity": "803",
+        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22898680-USAC_FCC_FORM_470_APPLICATION_270002425_CERTIFIED.pdf",
+        "rfp_documents": "https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22898645-Addendum%201%20for%20RFP%2027B%2001%20908.pdf",
+        "consultant": ""
+      },
+      {
+        "application_number": "270002425",
+        "funding_year": "2027",
+        "status": "Certified",
+        "certified_date": "2026-10-21T14:32:27.000",
+        "allowable_contract_date": "2026-11-18T00:00:00.000",
+        "service_type": "Internal Connections",
+        "function": "Wireless Access Points and Necessary Software and Licenses",
+        "manufacturer": "Cisco Systems or equivalent",
+        "quantity": "803",
+        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22898680-USAC_FCC_FORM_470_APPLICATION_270002425_CERTIFIED.pdf",
         "rfp_documents": "https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22789563-Final%20Bid%20Invitation%20RFP%2027B%2001%20908.pdf",
         "consultant": ""
       },
@@ -147,7 +175,7 @@
         "function": "Wireless Access Points and Necessary Software and Licenses",
         "manufacturer": "Cisco Systems or equivalent",
         "quantity": "803",
-        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22790325-USAC_FCC_FORM_470_APPLICATION_270002425_CERTIFIED.pdf",
+        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22898680-USAC_FCC_FORM_470_APPLICATION_270002425_CERTIFIED.pdf",
         "rfp_documents": "https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22789565-Final%20Procurement%20Schedule%20RFP%2027B%2001%20908.pdf",
         "consultant": ""
       },
@@ -161,7 +189,7 @@
         "function": "Wireless Access Points and Necessary Software and Licenses",
         "manufacturer": "Cisco Systems or equivalent",
         "quantity": "803",
-        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22790325-USAC_FCC_FORM_470_APPLICATION_270002425_CERTIFIED.pdf",
+        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22898680-USAC_FCC_FORM_470_APPLICATION_270002425_CERTIFIED.pdf",
         "rfp_documents": "https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22790313-Irving%20ISD%20C2%202027%20Addendum%201.docx",
         "consultant": ""
       },
@@ -175,7 +203,35 @@
         "function": "Wireless Access Points",
         "manufacturer": "Cisco Systems",
         "quantity": "803",
-        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22790325-USAC_FCC_FORM_470_APPLICATION_270002425_CERTIFIED.pdf",
+        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22898680-USAC_FCC_FORM_470_APPLICATION_270002425_CERTIFIED.pdf",
+        "rfp_documents": "https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22898672-Addendum%201%20Bid%20Invitation%20RFP%2027B%2001%20908.pdf",
+        "consultant": ""
+      },
+      {
+        "application_number": "270002425",
+        "funding_year": "2027",
+        "status": "Certified",
+        "certified_date": "2026-10-21T14:32:27.000",
+        "allowable_contract_date": "2026-11-18T00:00:00.000",
+        "service_type": "Basic Maintenance of Internal Connections",
+        "function": "Wireless Access Points",
+        "manufacturer": "Cisco Systems",
+        "quantity": "803",
+        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22898680-USAC_FCC_FORM_470_APPLICATION_270002425_CERTIFIED.pdf",
+        "rfp_documents": "https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22898645-Addendum%201%20for%20RFP%2027B%2001%20908.pdf",
+        "consultant": ""
+      },
+      {
+        "application_number": "270002425",
+        "funding_year": "2027",
+        "status": "Certified",
+        "certified_date": "2026-10-21T14:32:27.000",
+        "allowable_contract_date": "2026-11-18T00:00:00.000",
+        "service_type": "Basic Maintenance of Internal Connections",
+        "function": "Wireless Access Points",
+        "manufacturer": "Cisco Systems",
+        "quantity": "803",
+        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22898680-USAC_FCC_FORM_470_APPLICATION_270002425_CERTIFIED.pdf",
         "rfp_documents": "https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22789563-Final%20Bid%20Invitation%20RFP%2027B%2001%20908.pdf",
         "consultant": ""
       },
@@ -189,7 +245,7 @@
         "function": "Wireless Access Points",
         "manufacturer": "Cisco Systems",
         "quantity": "803",
-        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22790325-USAC_FCC_FORM_470_APPLICATION_270002425_CERTIFIED.pdf",
+        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22898680-USAC_FCC_FORM_470_APPLICATION_270002425_CERTIFIED.pdf",
         "rfp_documents": "https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22789565-Final%20Procurement%20Schedule%20RFP%2027B%2001%20908.pdf",
         "consultant": ""
       },
@@ -203,7 +259,7 @@
         "function": "Wireless Access Points",
         "manufacturer": "Cisco Systems",
         "quantity": "803",
-        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22790325-USAC_FCC_FORM_470_APPLICATION_270002425_CERTIFIED.pdf",
+        "form_pdf": "https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22898680-USAC_FCC_FORM_470_APPLICATION_270002425_CERTIFIED.pdf",
         "rfp_documents": "https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22790313-Irving%20ISD%20C2%202027%20Addendum%201.docx",
         "consultant": ""
       }

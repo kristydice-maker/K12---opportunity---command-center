@@ -1,6 +1,6 @@
 # E-Rate Opportunity Brief
 
-Generated: 2026-11-06 19:00 UTC
+Generated: 2026-11-07 17:33 UTC
 
 Current USAC Form 470 intelligence for monitored accounts.
 
@@ -50,8 +50,8 @@ Treat this Form 470 as historical intelligence. Check Form 471 and FRN data to d
 - **Service Type:** Internal Connections, Basic Maintenance of Internal Connections
 - **Requested Functions:** Wireless Access Points and Necessary Software and Licenses, Wireless Access Points
 - **Manufacturer:** Cisco Systems or equivalent, Cisco Systems
-- **Form 470:** [Open USAC Form 470](https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22790325-USAC_FCC_FORM_470_APPLICATION_270002425_CERTIFIED.pdf)
-- **RFP:** [Open RFP Document](https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22789563-Final%20Bid%20Invitation%20RFP%2027B%2001%20908.pdf)
+- **Form 470:** [Open USAC Form 470](https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22898680-USAC_FCC_FORM_470_APPLICATION_270002425_CERTIFIED.pdf)
+- **RFP:** [Open RFP Document](https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22898672-Addendum%201%20Bid%20Invitation%20RFP%2027B%2001%20908.pdf)
 
 **Suggested Sales Action:**
 Review the Form 470 and RFP promptly. The Allowable Contract Date has not yet passed. The requested technology aligns with Netsync networking capabilities, including switching, wireless, routing, licensing, and services.
