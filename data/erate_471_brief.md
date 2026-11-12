@@ -1,6 +1,6 @@
 # E-Rate Form 471 / FRN Outcome Brief
 
-Generated: 2026-11-11 19:46 UTC
+Generated: 2026-11-12 20:15 UTC
 
 This report summarizes current Form 471 funding requests and FRN outcomes for monitored E-Rate accounts.
 
@@ -12,27 +12,6 @@ This report summarizes current Form 471 funding requests and FRN outcomes for mo
 **FRNs Found:** 4
 
 ### Form 471 261041905
-
-#### FRN 2699061957
-
-- **Funding Year:** 2026
-- **Service Type:** Internal Connections
-- **Funding Status:** Funded
-- **Selected Provider:** Netsync Network Solutions
-- **Provider Classification:** NETSYNC
-- **Contract Number:** Not listed
-- **Establishing Form 470:** 260019623
-- **Service Start:** 2026-07-01
-- **Contract Expiration:** 2028-09-30
-- **Service Delivery Deadline:** 2027-09-30
-- **Monthly Eligible Cost:** $0.00
-- **Total Pre-Discount Cost:** $3,785,076.00
-- **Funding Request:** $2,271,045.60
-- **Discount Rate:** 60%
-- **Form 486 Status:** Not listed
-
-**Competitive Interpretation:**
-Netsync appears as the selected service provider for this FRN.
 
 #### FRN 2699061956
 
@@ -55,29 +34,29 @@ Netsync appears as the selected service provider for this FRN.
 **Competitive Interpretation:**
 Netsync appears as the selected service provider for this FRN.
 
-
-### Form 471 261024398
-
-#### FRN 2699033211
+#### FRN 2699061957
 
 - **Funding Year:** 2026
-- **Service Type:** Data Transmission and/or Internet Access
+- **Service Type:** Internal Connections
 - **Funding Status:** Funded
-- **Selected Provider:** Unite Private Networks, LLC
-- **Provider Classification:** CARRIER
-- **Contract Number:** 41096
-- **Establishing Form 470:** 230016958
+- **Selected Provider:** Netsync Network Solutions
+- **Provider Classification:** NETSYNC
+- **Contract Number:** Not listed
+- **Establishing Form 470:** 260019623
 - **Service Start:** 2026-07-01
-- **Contract Expiration:** 2028-06-30
-- **Service Delivery Deadline:** 2027-06-30
-- **Monthly Eligible Cost:** $3,698.99
-- **Total Pre-Discount Cost:** $44,387.88
-- **Funding Request:** $26,632.73
+- **Contract Expiration:** 2028-09-30
+- **Service Delivery Deadline:** 2027-09-30
+- **Monthly Eligible Cost:** $0.00
+- **Total Pre-Discount Cost:** $3,785,076.00
+- **Funding Request:** $2,271,045.60
 - **Discount Rate:** 60%
-- **Form 486 Status:** Approved
+- **Form 486 Status:** Not listed
 
 **Competitive Interpretation:**
-This appears to be a carrier/connectivity award. Treat it as account infrastructure intelligence rather than a direct VAR competitive loss.
+Netsync appears as the selected service provider for this FRN.
+
+
+### Form 471 261024398
 
 #### FRN 2699033205
 
@@ -100,6 +79,27 @@ This appears to be a carrier/connectivity award. Treat it as account infrastruct
 **Competitive Interpretation:**
 This appears to be a carrier/connectivity award. Treat it as account infrastructure intelligence rather than a direct VAR competitive loss.
 
+#### FRN 2699033211
+
+- **Funding Year:** 2026
+- **Service Type:** Data Transmission and/or Internet Access
+- **Funding Status:** Funded
+- **Selected Provider:** Unite Private Networks, LLC
+- **Provider Classification:** CARRIER
+- **Contract Number:** 41096
+- **Establishing Form 470:** 230016958
+- **Service Start:** 2026-07-01
+- **Contract Expiration:** 2028-06-30
+- **Service Delivery Deadline:** 2027-06-30
+- **Monthly Eligible Cost:** $3,698.99
+- **Total Pre-Discount Cost:** $44,387.88
+- **Funding Request:** $26,632.73
+- **Discount Rate:** 60%
+- **Form 486 Status:** Approved
+
+**Competitive Interpretation:**
+This appears to be a carrier/connectivity award. Treat it as account infrastructure intelligence rather than a direct VAR competitive loss.
+
 
 ---
 
@@ -109,27 +109,6 @@ This appears to be a carrier/connectivity award. Treat it as account infrastruct
 **FRNs Found:** 4
 
 ### Form 471 261038421
-
-#### FRN 2699058488
-
-- **Funding Year:** 2026
-- **Service Type:** Data Transmission and/or Internet Access
-- **Funding Status:** Funded
-- **Selected Provider:** Unite Private Networks, LLC
-- **Provider Classification:** CARRIER
-- **Contract Number:** Not listed
-- **Establishing Form 470:** 260019005
-- **Service Start:** 2026-07-01
-- **Contract Expiration:** 2029-06-30
-- **Service Delivery Deadline:** 2027-06-30
-- **Monthly Eligible Cost:** $875.00
-- **Total Pre-Discount Cost:** $10,500.00
-- **Funding Request:** $9,450.00
-- **Discount Rate:** 90%
-- **Form 486 Status:** Approved
-
-**Competitive Interpretation:**
-This appears to be a carrier/connectivity award. Treat it as account infrastructure intelligence rather than a direct VAR competitive loss.
 
 #### FRN 2699056474
 
@@ -188,6 +167,27 @@ This appears to be a carrier/connectivity award. Treat it as account infrastruct
 - **Monthly Eligible Cost:** $8,062.68
 - **Total Pre-Discount Cost:** $96,752.16
 - **Funding Request:** $87,076.94
+- **Discount Rate:** 90%
+- **Form 486 Status:** Approved
+
+**Competitive Interpretation:**
+This appears to be a carrier/connectivity award. Treat it as account infrastructure intelligence rather than a direct VAR competitive loss.
+
+#### FRN 2699058488
+
+- **Funding Year:** 2026
+- **Service Type:** Data Transmission and/or Internet Access
+- **Funding Status:** Funded
+- **Selected Provider:** Unite Private Networks, LLC
+- **Provider Classification:** CARRIER
+- **Contract Number:** Not listed
+- **Establishing Form 470:** 260019005
+- **Service Start:** 2026-07-01
+- **Contract Expiration:** 2029-06-30
+- **Service Delivery Deadline:** 2027-06-30
+- **Monthly Eligible Cost:** $875.00
+- **Total Pre-Discount Cost:** $10,500.00
+- **Funding Request:** $9,450.00
 - **Discount Rate:** 90%
 - **Form 486 Status:** Approved
 
@@ -360,6 +360,27 @@ This appears to be a carrier/connectivity award. Treat it as account infrastruct
 
 ### Form 471 261004686
 
+#### FRN 2699024704
+
+- **Funding Year:** 2026
+- **Service Type:** Data Transmission and/or Internet Access
+- **Funding Status:** Funded
+- **Selected Provider:** Zayo Group, LLC
+- **Provider Classification:** CARRIER
+- **Contract Number:** Not listed
+- **Establishing Form 470:** 250005980
+- **Service Start:** 2026-07-01
+- **Contract Expiration:** 2028-06-30
+- **Service Delivery Deadline:** 2027-06-30
+- **Monthly Eligible Cost:** $4,466.40
+- **Total Pre-Discount Cost:** $53,596.80
+- **Funding Request:** $42,877.44
+- **Discount Rate:** 80%
+- **Form 486 Status:** Not listed
+
+**Competitive Interpretation:**
+This appears to be a carrier/connectivity award. Treat it as account infrastructure intelligence rather than a direct VAR competitive loss.
+
 #### FRN 2699024778
 
 - **Funding Year:** 2026
@@ -396,27 +417,6 @@ This appears to be a carrier/connectivity award. Treat it as account infrastruct
 - **Monthly Eligible Cost:** $8,312.36
 - **Total Pre-Discount Cost:** $99,748.32
 - **Funding Request:** $79,798.66
-- **Discount Rate:** 80%
-- **Form 486 Status:** Not listed
-
-**Competitive Interpretation:**
-This appears to be a carrier/connectivity award. Treat it as account infrastructure intelligence rather than a direct VAR competitive loss.
-
-#### FRN 2699024704
-
-- **Funding Year:** 2026
-- **Service Type:** Data Transmission and/or Internet Access
-- **Funding Status:** Funded
-- **Selected Provider:** Zayo Group, LLC
-- **Provider Classification:** CARRIER
-- **Contract Number:** Not listed
-- **Establishing Form 470:** 250005980
-- **Service Start:** 2026-07-01
-- **Contract Expiration:** 2028-06-30
-- **Service Delivery Deadline:** 2027-06-30
-- **Monthly Eligible Cost:** $4,466.40
-- **Total Pre-Discount Cost:** $53,596.80
-- **Funding Request:** $42,877.44
 - **Discount Rate:** 80%
 - **Form 486 Status:** Not listed
 
