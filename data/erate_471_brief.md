@@ -1,6 +1,6 @@
 # E-Rate Form 471 / FRN Outcome Brief
 
-Generated: 2026-11-12 20:15 UTC
+Generated: 2026-11-13 19:55 UTC
 
 This report summarizes current Form 471 funding requests and FRN outcomes for monitored E-Rate accounts.
 
@@ -360,27 +360,6 @@ This appears to be a carrier/connectivity award. Treat it as account infrastruct
 
 ### Form 471 261004686
 
-#### FRN 2699024704
-
-- **Funding Year:** 2026
-- **Service Type:** Data Transmission and/or Internet Access
-- **Funding Status:** Funded
-- **Selected Provider:** Zayo Group, LLC
-- **Provider Classification:** CARRIER
-- **Contract Number:** Not listed
-- **Establishing Form 470:** 250005980
-- **Service Start:** 2026-07-01
-- **Contract Expiration:** 2028-06-30
-- **Service Delivery Deadline:** 2027-06-30
-- **Monthly Eligible Cost:** $4,466.40
-- **Total Pre-Discount Cost:** $53,596.80
-- **Funding Request:** $42,877.44
-- **Discount Rate:** 80%
-- **Form 486 Status:** Not listed
-
-**Competitive Interpretation:**
-This appears to be a carrier/connectivity award. Treat it as account infrastructure intelligence rather than a direct VAR competitive loss.
-
 #### FRN 2699024778
 
 - **Funding Year:** 2026
@@ -417,6 +396,27 @@ This appears to be a carrier/connectivity award. Treat it as account infrastruct
 - **Monthly Eligible Cost:** $8,312.36
 - **Total Pre-Discount Cost:** $99,748.32
 - **Funding Request:** $79,798.66
+- **Discount Rate:** 80%
+- **Form 486 Status:** Not listed
+
+**Competitive Interpretation:**
+This appears to be a carrier/connectivity award. Treat it as account infrastructure intelligence rather than a direct VAR competitive loss.
+
+#### FRN 2699024704
+
+- **Funding Year:** 2026
+- **Service Type:** Data Transmission and/or Internet Access
+- **Funding Status:** Funded
+- **Selected Provider:** Zayo Group, LLC
+- **Provider Classification:** CARRIER
+- **Contract Number:** Not listed
+- **Establishing Form 470:** 250005980
+- **Service Start:** 2026-07-01
+- **Contract Expiration:** 2028-06-30
+- **Service Delivery Deadline:** 2027-06-30
+- **Monthly Eligible Cost:** $4,466.40
+- **Total Pre-Discount Cost:** $53,596.80
+- **Funding Request:** $42,877.44
 - **Discount Rate:** 80%
 - **Form 486 Status:** Not listed
 
