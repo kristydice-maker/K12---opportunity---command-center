@@ -1,6 +1,6 @@
 # E-Rate Opportunity Brief
 
-Generated: 2026-11-17 20:36 UTC
+Generated: 2026-11-18 20:07 UTC
 
 Current USAC Form 470 intelligence for monitored accounts.
 
@@ -38,7 +38,7 @@ Treat this Form 470 as historical intelligence. Check Form 471 and FRN data to d
 **BEN:** 140448
 **Solution Fit:** HIGH
 **Opportunity Type:** Networking
-**Opportunity Timing:** PRE-ACD
+**Opportunity Timing:** AWARD / FOLLOW-UP
 
 ### Form 470 270002425
 
@@ -46,7 +46,7 @@ Treat this Form 470 as historical intelligence. Check Form 471 and FRN data to d
 - **Status:** Certified
 - **Certified:** 2026-10-21
 - **Allowable Contract Date:** 2026-11-18
-- **Timing:** PRE-ACD
+- **Timing:** AWARD / FOLLOW-UP
 - **Service Type:** Internal Connections, Basic Maintenance of Internal Connections
 - **Requested Functions:** Wireless Access Points and Necessary Software and Licenses, Wireless Access Points
 - **Manufacturer:** Cisco Systems or equivalent, Cisco Systems
@@ -54,7 +54,7 @@ Treat this Form 470 as historical intelligence. Check Form 471 and FRN data to d
 - **RFP:** [Open RFP Document](https://publicdata.usac.org/EPC/Prd/Form470/270002425/140448/22898672-Addendum%201%20Bid%20Invitation%20RFP%2027B%2001%20908.pdf)
 
 **Suggested Sales Action:**
-Review the Form 470 and RFP promptly. The Allowable Contract Date has not yet passed. The requested technology aligns with Netsync networking capabilities, including switching, wireless, routing, licensing, and services.
+The Allowable Contract Date has passed recently. Check for award activity, Form 471 filings, board approval, and customer follow-up. The requested technology aligns with Netsync networking capabilities, including switching, wireless, routing, licensing, and services.
 
 ---
 
