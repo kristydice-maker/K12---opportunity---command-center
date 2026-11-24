@@ -1,6 +1,6 @@
 # E-Rate Form 471 / FRN Outcome Brief
 
-Generated: 2026-11-24 00:10 UTC
+Generated: 2026-11-24 22:39 UTC
 
 This report summarizes current Form 471 funding requests and FRN outcomes for monitored E-Rate accounts.
 
@@ -58,27 +58,6 @@ Netsync appears as the selected service provider for this FRN.
 
 ### Form 471 261024398
 
-#### FRN 2699033211
-
-- **Funding Year:** 2026
-- **Service Type:** Data Transmission and/or Internet Access
-- **Funding Status:** Funded
-- **Selected Provider:** Unite Private Networks, LLC
-- **Provider Classification:** CARRIER
-- **Contract Number:** 41096
-- **Establishing Form 470:** 230016958
-- **Service Start:** 2026-07-01
-- **Contract Expiration:** 2028-06-30
-- **Service Delivery Deadline:** 2027-06-30
-- **Monthly Eligible Cost:** $3,698.99
-- **Total Pre-Discount Cost:** $44,387.88
-- **Funding Request:** $26,632.73
-- **Discount Rate:** 60%
-- **Form 486 Status:** Approved
-
-**Competitive Interpretation:**
-This appears to be a carrier/connectivity award. Treat it as account infrastructure intelligence rather than a direct VAR competitive loss.
-
 #### FRN 2699033205
 
 - **Funding Year:** 2026
@@ -94,6 +73,27 @@ This appears to be a carrier/connectivity award. Treat it as account infrastruct
 - **Monthly Eligible Cost:** $50,323.26
 - **Total Pre-Discount Cost:** $603,879.12
 - **Funding Request:** $362,327.47
+- **Discount Rate:** 60%
+- **Form 486 Status:** Approved
+
+**Competitive Interpretation:**
+This appears to be a carrier/connectivity award. Treat it as account infrastructure intelligence rather than a direct VAR competitive loss.
+
+#### FRN 2699033211
+
+- **Funding Year:** 2026
+- **Service Type:** Data Transmission and/or Internet Access
+- **Funding Status:** Funded
+- **Selected Provider:** Unite Private Networks, LLC
+- **Provider Classification:** CARRIER
+- **Contract Number:** 41096
+- **Establishing Form 470:** 230016958
+- **Service Start:** 2026-07-01
+- **Contract Expiration:** 2028-06-30
+- **Service Delivery Deadline:** 2027-06-30
+- **Monthly Eligible Cost:** $3,698.99
+- **Total Pre-Discount Cost:** $44,387.88
+- **Funding Request:** $26,632.73
 - **Discount Rate:** 60%
 - **Form 486 Status:** Approved
 
